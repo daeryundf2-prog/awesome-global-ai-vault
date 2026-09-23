@@ -170,16 +170,17 @@ def main():
         else:
             item["rank_delta"] = "−"
 
-    # Compute Regional Rankings
-    region_groups = {}
+    # Compute Country & Regional Rankings
+    country_groups = {}
     for item in items:
-        reg = item.get("region", "Global")
-        region_groups.setdefault(reg, []).append(item)
+        cntry = item.get("country", item.get("region", "Global"))
+        country_groups.setdefault(cntry, []).append(item)
 
-    for reg, reg_items in region_groups.items():
-        reg_items.sort(key=lambda x: x.get("score", 0), reverse=True)
-        for reg_rank, item in enumerate(reg_items, start=1):
-            item["rank_regional"] = reg_rank
+    for cntry, c_items in country_groups.items():
+        c_items.sort(key=lambda x: x.get("score", 0), reverse=True)
+        for c_rank, item in enumerate(c_items, start=1):
+            item["rank_country"] = c_rank
+            item["rank_regional"] = c_rank
 
     # Keep original list format or wrap
     output_data = items if is_list else {"items": items, "last_updated_at": now_dt.strftime("%Y-%m-%d %H:%M:%S UTC")}
