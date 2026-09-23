@@ -1,0 +1,138 @@
+{
+  "last_searched_at": "2026-09-23 10:33:22 UTC",
+  "total_emerging": 12,
+  "candidates": [
+    {
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "github": "https://github.com/affaan-m/ECC",
+      "stars": 265777,
+      "forks": 39717,
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "pushed_at": "2026-09-22T23:09:59Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "deepseek-harness",
+      "full_name": "deepseek-ai/deepseek-harness",
+      "github": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 233974,
+      "forks": 28111,
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "language": "TypeScript",
+      "pushed_at": "2026-09-22T15:50:34Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "JavaGuide",
+      "full_name": "Snailclimb/JavaGuide",
+      "github": "https://github.com/Snailclimb/JavaGuide",
+      "stars": 158829,
+      "forks": 46140,
+      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "language": "JavaScript",
+      "pushed_at": "2026-09-22T09:58:35Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "open-webui",
+      "full_name": "open-webui/open-webui",
+      "github": "https://github.com/open-webui/open-webui",
+      "stars": 152889,
+      "forks": 22369,
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "pushed_at": "2026-09-22T20:57:10Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "TradingAgents",
+      "full_name": "TauricResearch/TradingAgents",
+      "github": "https://github.com/TauricResearch/TradingAgents",
+      "stars": 108236,
+      "forks": 20718,
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "pushed_at": "2026-09-18T05:43:45Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "taste-skill",
+      "full_name": "Leonxlnx/taste-skill",
+      "github": "https://github.com/Leonxlnx/taste-skill",
+      "stars": 89452,
+      "forks": 6082,
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "language": "JavaScript",
+      "pushed_at": "2026-09-23T07:26:15Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "github": "https://github.com/OpenHands/OpenHands",
+      "stars": 88953,
+      "forks": 11704,
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "language": "TypeScript",
+      "pushed_at": "2026-09-23T08:35:52Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "Real-Time-Voice-Cloning",
+      "full_name": "CorentinJ/Real-Time-Voice-Cloning",
+      "github": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+      "stars": 60146,
+      "forks": 9383,
+      "description": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "language": "Python",
+      "pushed_at": "2026-03-09T10:31:58Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "TTS",
+      "full_name": "coqui-ai/TTS",
+      "github": "https://github.com/coqui-ai/TTS",
+      "stars": 46051,
+      "forks": 6159,
+      "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
+      "language": "Python",
+      "pushed_at": "2024-08-16T12:07:14Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "VoxCPM",
+      "full_name": "OpenBMB/VoxCPM",
+      "github": "https://github.com/OpenBMB/VoxCPM",
+      "stars": 37904,
+      "forks": 4308,
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "pushed_at": "2026-09-02T12:12:35Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "MockingBird",
+      "full_name": "babysor/MockingBird",
+      "github": "https://github.com/babysor/MockingBird",
+      "stars": 36905,
+      "forks": 5175,
+      "description": "🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "language": "Python",
+      "pushed_at": "2026-03-03T14:59:58Z",
+      "discovered_at": "2026-09-23"
+    },
+    {
+      "name": "Handy",
+      "full_name": "cjpais/Handy",
+      "github": "https://github.com/cjpais/Handy",
+      "stars": 32060,
+      "forks": 2936,
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "pushed_at": "2026-09-19T07:30:07Z",
+      "discovered_at": "2026-09-23"
+    }
+  ]
+}

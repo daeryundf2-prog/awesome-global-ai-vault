@@ -1,120 +1,147 @@
 #!/usr/bin/env python3
 """
-CLI search helper for Awesome Global AI Creations Vault (100 Curated World Tools)
-Usage:
-    python search.py --region "cn"
-    python search.py --region "eu"
-    python search.py --query "agent"
-    python search.py --model "deepseek"
-    python search.py --list-regions
-    python search.py --list-categories
+Awesome Global AI Vault - Terminal CLI Search & Leaderboard Explorer
 """
 
-import json
-import argparse
 import os
 import sys
+import json
+import argparse
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "global_creations.json")
 
 def load_data():
     if not os.path.exists(DATA_PATH):
-        print(f"Error: Data file not found at {DATA_PATH}", file=sys.stderr)
+        print(f"Error: Data file not found at {DATA_PATH}")
         sys.exit(1)
     with open(DATA_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+        raw = json.load(f)
+        return raw if isinstance(raw, list) else raw.get("items", [])
 
-def format_item(item):
-    return f"""[{item['id']:03d}] {item['name']} ({item['execution_type']})
-  • 권역/국가 : {item['region']}
-  • 카테고리  : {item['category']}
-  • 개발/조직 : {item['author']}
-  • 호환 모델 : {item['model_affinity']}
-  • 저장소    : {item['github']}
-  • 핵심 설명 : {item['summary']}
-  • 실무 활용 : {item['use_case']}
---------------------------------------------------------------------------------"""
-
-def match_region(filter_val, region_str):
-    fv = filter_val.lower().strip()
-    rs = region_str.lower()
-    if fv in ["us", "usa", "america", "global", "영어", "북미"]:
-        return "north america" in rs or "북미" in rs
-    if fv in ["cn", "china", "chinese", "중국"]:
-        return "china" in rs or "중국" in rs
-    if fv in ["eu", "europe", "european", "유럽", "france", "germany", "uk"]:
-        return "europe" in rs or "유럽" in rs
-    if fv in ["jp", "japan", "japanese", "apac", "일본", "아태"]:
-        return "japan" in rs or "일본" in rs or "apac" in rs
-    return fv in rs
+def format_number(val):
+    if isinstance(val, (int, float)):
+        return f"{int(val):,}"
+    return str(val)
 
 def main():
-    parser = argparse.ArgumentParser(description="전세계 글로벌 AI 생성물 & 도구 100선 검색기")
-    parser.add_argument("-r", "--region", help="권역 검색 (예: us, cn, eu, jp, 북미, 중국, 유럽, 일본)")
-    parser.add_argument("-q", "--query", help="이름, 설명, 실무활용 내 키워드 검색")
-    parser.add_argument("-c", "--category", help="기능 카테고리 필터링")
-    parser.add_argument("-m", "--model", help="호환 모델 검색 (예: deepseek, qwen, mistral, opus, astra)")
-    parser.add_argument("--list-regions", action="store_true", help="등록된 권역 목록 표시")
-    parser.add_argument("--list-categories", action="store_true", help="등록된 카테고리 목록 표시")
-    parser.add_argument("-a", "--all", action="store_true", help="전체 100선 출력")
+    parser = argparse.ArgumentParser(description="Awesome Global AI Vault & Leaderboard Search")
+    parser.add_argument("--top", type=int, default=None, help="Display Top N global projects by ranking (e.g. --top 10)")
+    parser.add_argument("--region", "-r", type=str, default=None, help="Filter by region (us, cn, eu, jp, 북미, 중국, 유럽, 일본)")
+    parser.add_argument("--model", "-m", type=str, default=None, help="Filter by compatible model keyword")
+    parser.add_argument("--category", "-c", type=str, default=None, help="Filter by category")
+    parser.add_argument("--query", "-q", type=str, default=None, help="General keyword search (name, summary, use_case)")
+    parser.add_argument("--list-regions", action="store_true", help="List all regions and counts")
+    parser.add_argument("--list-categories", action="store_true", help="List all categories and counts")
 
     args = parser.parse_args()
     data = load_data()
 
     if args.list_regions:
-        regs = sorted(list(set(item["region"] for item in data)))
-        print("🌐 등록된 권역/국가 목록:")
-        for idx, reg in enumerate(regs, 1):
-            count = sum(1 for item in data if item["region"] == reg)
-            print(f"  {idx}. {reg} ({count}개 도구)")
+        print("\n🌍 [등록된 전세계 권역 목록]")
+        counts = {}
+        for it in data:
+            reg = it.get("region", "기타")
+            counts[reg] = counts.get(reg, 0) + 1
+        for reg, cnt in sorted(counts.items(), key=lambda x: x[1], reverse=True):
+            print(f"  • {reg}: {cnt}개 프로젝트")
+        print()
         return
 
     if args.list_categories:
-        cats = sorted(list(set(item["category"] for item in data)))
-        print("📁 등록된 기능 카테고리 목록:")
-        for idx, cat in enumerate(cats, 1):
-            count = sum(1 for item in data if item["category"] == cat)
-            print(f"  {idx}. {cat} ({count}개 도구)")
+        print("\n📂 [등록된 카테고리 목록]")
+        counts = {}
+        for it in data:
+            cat = it.get("category", "기타")
+            counts[cat] = counts.get(cat, 0) + 1
+        for cat, cnt in sorted(counts.items(), key=lambda x: x[1], reverse=True):
+            print(f"  • {cat}: {cnt}개 프로젝트")
+        print()
         return
 
-    results = data
+    # Top N mode
+    if args.top is not None:
+        data.sort(key=lambda x: x.get("rank_global", 999))
+        results = data[:args.top]
+        print(f"\n🏆 [Global AI Leaderboard Top {args.top}] (총 {len(data)}개 중)")
+        print("=" * 85)
+        for it in results:
+            rank = it.get("rank_global", "-")
+            status = it.get("status", "⚡ Active")
+            name = it.get("name", "")
+            reg = it.get("region", "").split("(")[0].strip()
+            stars = format_number(it.get("stars", 0))
+            score = it.get("score", 0.0)
+            summary = it.get("summary", "")
+            gh = it.get("github", "")
+            print(f"#{rank:02d} | {status} | {name:<20} | {reg:<6} | ⭐ {stars:<8} | 점수 {score:<5} | {gh}")
+            print(f"     👉 {summary}")
+            print("-" * 85)
+        print()
+        return
 
+    # Filter logic
+    results = []
+    region_aliases = {
+        "us": "북미",
+        "usa": "북미",
+        "america": "북미",
+        "cn": "중국",
+        "china": "중국",
+        "eu": "유럽",
+        "europe": "유럽",
+        "jp": "일본",
+        "japan": "일본"
+    }
+
+    target_region = None
     if args.region:
-        results = [item for item in results if match_region(args.region, item["region"])]
+        target_region = region_aliases.get(args.region.lower(), args.region.lower())
 
-    if args.category:
-        results = [item for item in results if args.category.lower() in item["category"].lower()]
+    for item in data:
+        if target_region:
+            if target_region not in item.get("region", "").lower():
+                continue
 
-    if args.model:
-        results = [item for item in results if args.model.lower() in item["model_affinity"].lower()]
+        if args.model:
+            if args.model.lower() not in item.get("model_affinity", "").lower():
+                continue
 
-    if args.query:
-        q = args.query.lower()
-        results = [
-            item for item in results
-            if q in item["name"].lower()
-            or q in item["summary"].lower()
-            or q in item["use_case"].lower()
-            or q in item["author"].lower()
-            or q in item["execution_type"].lower()
-            or q in item["region"].lower()
-        ]
+        if args.category:
+            if args.category.lower() not in item.get("category", "").lower():
+                continue
 
-    if not args.all and not (args.query or args.region or args.category or args.model):
-        print("💡 사용법:")
-        print("  python search.py --region <us|cn|eu|jp|중국|유럽|일본>")
-        print("  python search.py --query <검색어>")
-        print("  python search.py --category <카테고리>")
-        print("  python search.py --model <모델명(deepseek/qwen/mistral/opus/astra)>")
-        print("  python search.py --list-regions")
-        print("  python search.py --list-categories")
-        print("  python search.py --all")
-        print(f"\n현재 전세계 총 {len(data)}개의 엄선된 글로벌 AI 생성물/도구가 등록되어 있습니다.")
-        return
+        if args.query:
+            q = args.query.lower()
+            text_corpus = f"{item.get('name', '')} {item.get('summary', '')} {item.get('use_case', '')} {item.get('author', '')}".lower()
+            if q not in text_corpus:
+                continue
 
-    print(f"\n🔍 검색 결과: {len(results)}건 / 총 {len(data)}건\n" + "=" * 80)
-    for item in results:
-        print(format_item(item))
+        results.append(item)
+
+    # Sort results by global rank
+    results.sort(key=lambda x: x.get("rank_global", 999))
+
+    print(f"\n🔍 검색 결과: {len(results)}건 / 총 {len(data)}건")
+    print("=" * 80)
+    for it in results:
+        rank = it.get("rank_global", "-")
+        reg_rank = it.get("rank_regional", "-")
+        status = it.get("status", "⚡ Active")
+        stars = format_number(it.get("stars", 0))
+        forks = format_number(it.get("forks", 0))
+        score = it.get("score", 0.0)
+
+        print(f"[#{rank:02d} | 권역 #{reg_rank}] {it.get('name')} ({it.get('execution_type')}) - {status}")
+        print(f"  • 권역/국가 : {it.get('region')}")
+        print(f"  • 카테고리  : {it.get('category')}")
+        print(f"  • 개발/조직 : {it.get('author')}")
+        print(f"  • 호환 모델 : {it.get('model_affinity')}")
+        print(f"  • 메트릭    : ⭐ {stars} stars | 🍴 {forks} forks | 점수: {score}")
+        print(f"  • 저장소    : {it.get('github')}")
+        print(f"  • 핵심 설명 : {it.get('summary')}")
+        print(f"  • 실무 활용 : {it.get('use_case')}")
+        print("-" * 80)
+    print()
 
 if __name__ == "__main__":
     main()
