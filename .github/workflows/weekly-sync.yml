@@ -1,4 +1,4 @@
-name: Weekly AI Vault & Leaderboard Sync
+name: Weekly lazyradar Sync & Leaderboard
 
 on:
   schedule:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: weekly-ai-sync
+  group: weekly-lazyradar-sync
   cancel-in-progress: true
 
 jobs:
@@ -52,6 +52,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes detected. Skipping commit."
           else
-            git commit -m "chore(tracker): weekly update of AI creations metrics and leaderboard [skip ci]"
+            git commit -m "chore(radar): weekly update of global AI metrics and leaderboard [skip ci]"
             git push origin main
           fi

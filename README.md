@@ -1,13 +1,15 @@
-# 🌐 Awesome Global AI Vault & Country-by-Country Top 20
+# 🛰️ lazyradar: Autonomous Global AI Tech Radar & 5-Nation Top 20
 
-> **전 세계 최상위 오픈소스 AI 생성물·에이전트·파운데이션 모델 100선 및 5대 주요국 Top 20 주간 자동 랭킹 레이더**
+> **레이지 시리즈 공식 글로벌 AI 기술 레이더 (Lazy Series Official Tech Radar)**
+> 미국·중국·대한민국·유럽·일본 5대 주요국 Top 20 랭킹 분과 및 전 세계 100선 실시간 자동 랭킹 시스템
 > 매주 월요일 09:00 KST, GitHub Actions가 100개 레포지토리의 실시간 Stars/Forks/최근 커밋일을 수집하여 동적 순위와 신규 급부상 프로젝트를 자동으로 최신화합니다.
 
-[![Weekly AI Vault & Leaderboard Sync](https://github.com/daeryundf2-prog/awesome-global-ai-vault/actions/workflows/weekly-sync.yml/badge.svg)](https://github.com/daeryundf2-prog/awesome-global-ai-vault/actions/workflows/weekly-sync.yml) 
-![Last Synced](https://img.shields.io/badge/Last%20Synced-2026-09-23%2010:41%20UTC-blue) 
+[![Weekly lazyradar Sync & Leaderboard](https://github.com/daeryundf2-prog/lazyradar/actions/workflows/weekly-sync.yml/badge.svg)](https://github.com/daeryundf2-prog/lazyradar/actions/workflows/weekly-sync.yml) 
+![Last Synced](https://img.shields.io/badge/Last%20Synced-2026-09-23%2015:01%20UTC-blue) 
 ![Tracked Repos](https://img.shields.io/badge/Tracked%20Repositories-100-success) 
 ![5 Nations](https://img.shields.io/badge/Major%20Nations-US%20|%20CN%20|%20KR%20|%20EU%20|%20JP-purple) 
-![Weekly Cron](https://img.shields.io/badge/Sync%20Schedule-Every%20Monday%2009:00%20KST-orange)
+![Lazy Series](https://img.shields.io/badge/Lazy%20Series-Official%20Radar-orange) 
+![Weekly Cron](https://img.shields.io/badge/Sync%20Schedule-Every%20Monday%2009:00%20KST-green)
 
 ---
 

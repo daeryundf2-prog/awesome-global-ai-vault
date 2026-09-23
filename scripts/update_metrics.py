@@ -34,7 +34,7 @@ def fetch_repo_data(repo_full_name, token=None):
     url = f"https://api.github.com/repos/{repo_full_name}"
     headers = {
         "Accept": "application/vnd.github.v3+json",
-        "User-Agent": "Awesome-Global-AI-Vault-Tracker/1.0"
+        "User-Agent": "lazyradar-Agent/1.0 (daeryundf2-prog/lazyradar)"
     }
     if token:
         headers["Authorization"] = f"Bearer {token}"

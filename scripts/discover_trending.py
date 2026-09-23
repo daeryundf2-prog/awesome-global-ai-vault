@@ -33,7 +33,7 @@ def search_github(query, token=None, per_page=10):
     url = f"https://api.github.com/search/repositories?q={urllib.parse.quote(query)}&sort=stars&order=desc&per_page={per_page}"
     headers = {
         "Accept": "application/vnd.github.v3+json",
-        "User-Agent": "Awesome-Global-AI-Vault-Tracker/1.0"
+        "User-Agent": "lazyradar-Agent/1.0 (daeryundf2-prog/lazyradar)"
     }
     if token:
         headers["Authorization"] = f"Bearer {token}"
