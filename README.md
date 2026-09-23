@@ -4,15 +4,15 @@
 > 매주 월요일 09:00 KST, GitHub Actions가 100개 레포지토리의 실시간 Stars/Forks/최근 커밋일을 수집하여 동적 순위와 신규 급부상 프로젝트를 자동으로 최신화합니다.
 
 [![Weekly AI Vault & Leaderboard Sync](https://github.com/daeryundf2-prog/awesome-global-ai-vault/actions/workflows/weekly-sync.yml/badge.svg)](https://github.com/daeryundf2-prog/awesome-global-ai-vault/actions/workflows/weekly-sync.yml) 
-![Last Synced](https://img.shields.io/badge/Last%20Synced-2026-09-23%2010:36%20UTC-blue) 
+![Last Synced](https://img.shields.io/badge/Last%20Synced-2026-09-23%2010:38%20UTC-blue) 
 ![Tracked Repos](https://img.shields.io/badge/Tracked%20Repositories-100-success) 
 ![Weekly Cron](https://img.shields.io/badge/Sync%20Schedule-Every%20Monday%2009:00%20KST-orange)
 
 ---
 
-## 🏆 1. Global AI Weekly Top 20 Leaderboard (실시간 글로벌 랭킹)
+## 🏆 1. Global AI Weekly Top 100 Leaderboard (실시간 글로벌 100선 종합 랭킹)
 
-GitHub 실시간 메트릭(Stars, Forks)과 최근 커밋 활동성(Recency Bonus)을 종합 반영한 글로벌 주간 랭킹입니다.
+GitHub 실시간 메트릭(Stars, Forks)과 최근 커밋 활동성(Recency Bonus)을 종합 반영한 전 세계 100선 실시간 통합 랭킹입니다.
 
 | 순위 | 변동 | 상태 | 프로젝트명 | 권역 | 카테고리 | Stars | Forks | 활동 점수 | 핵심 특징 및 활용처 | 링크 |
 |:---:|:---:|:---:|---|---|---|:---:|:---:|:---:|---|:---:|
@@ -36,6 +36,86 @@ GitHub 실시간 메트릭(Stars, Forks)과 최근 커밋 활동성(Recency Bonu
 | **#18** | `▼1` | 🔥 Hot | **AnythingLLM** | 유럽권 | 프라이버시 중심 올인원 AI | ⭐ `66,359` | 🍴 `7,389` | **70.96** | GDPR 및 완전 프라이버시를 보장하는 데스크톱/서버 AI 앱. 문서 드래그 앤 드롭 RAG, 다중 사용자 권한 관리 | [GitHub](https://github.com/Mintplex-Labs/anything-llm) |
 | **#19** | `▼1` | 🔥 Hot | **crewAI** | 북미 / 글로벌 | 워크플로우 & 파이프라인 오케스트레이션 | ⭐ `58,935` | 🍴 `8,553` | **70.57** | 기획자, 리서처, 작가 등 명확한 직책(Role)과 목표(Goal)를 부여해 가상의 팀을 조직하는 에이전트 프레임워크 | [GitHub](https://github.com/crewAIInc/crewAI) |
 | **#20** | `▼1` | 🔥 Hot | **llama_index** | 북미 / 글로벌 | 데이터 인제스천 & RAG | ⭐ `52,292` | 🍴 `8,202` | **70.01** | PDF, 노션, DB 등 방대한 비정형 데이터를 에이전트가 탐색 가능한 인덱스로 연결하는 RAG 표준 | [GitHub](https://github.com/run-llama/llama_index) |
+| **#21** | `▼1` | 🔥 Hot | **whisper.cpp** | 북미 / 글로벌 | 로컬 인퍼런스 & 서빙 인프라 | ⭐ `53,871` | 🍴 `6,189` | **69.9** | C/C++로 밑바닥부터 재작성된 Whisper 추론 엔진. Apple Silicon Metal 가속으로 실시간 자막 전사 지원 | [GitHub](https://github.com/ggerganov/whisper.cpp) |
+| **#22** | `▼1` | 🔥 Hot | **ai-job-search** | 유럽권 | 취업 준비 자율 에이전트 | ⭐ `43,707` | 🍴 `15,034` | **69.76** | 덴마크 지구물리학자가 해고 후 제작한 오픈소스. 채용공고 스크랩부터 이력서 맞춤 작성, 모의면접까지 자율 완결 | [GitHub](https://github.com/MadsLorentzen/ai-job-search) |
+| **#23** | `▼1` | 🔥 Hot | **LocalAI** | 유럽권 | 로컬 프라이빗 AI 런타임 | ⭐ `49,234` | 🍴 `4,464` | **69.22** | 인터넷 없이 로컬 하드웨어에서 구동되는 오픈AI 규격 완벽 호환 REST API 서버 (텍스트, 음성, 이미지) | [GitHub](https://github.com/mudler/LocalAI) |
+| **#24** | `▼1` | 🔥 Hot | **langgraph** | 북미 / 글로벌 | 워크플로우 & 파이프라인 오케스트레이션 | ⭐ `42,172` | 🍴 `7,133` | **68.96** | 상태(State)를 기반으로 순환 루프, 분기 조건, 인간 개입(Human-in-the-loop)을 정의하는 엔터프라이즈 에이전트 표준 | [GitHub](https://github.com/langchain-ai/langgraph) |
+| **#25** | `▼1` | 🔥 Hot | **mindsdb** | 유럽권 | 데이터베이스 AI 통합 | ⭐ `39,763` | 🍴 `6,245` | **68.59** | SQL 쿼리문 안에서 직접 AI 모델을 호출하고 실시간 예측 및 텍스트 분석을 수행하는 미들웨어 | [GitHub](https://github.com/mindsdb/mindsdb) |
+| **#26** | `▼1` | 🔥 Hot | **sglang** | 북미 / 글로벌 | 로컬 인퍼런스 & 서빙 인프라 | ⭐ `36,361` | 🍴 `9,092` | **68.52** | 복잡한 에이전트 툴 호출과 다단계 추론에서 반복되는 KV 캐시를 Radix 트리로 공유해 레이턴시를 5배 단축 | [GitHub](https://github.com/sgl-project/sglang) |
+| **#27** | `▼1` | 🔥 Hot | **jan** | 중국권 | 오프라인 데스크톱 AI | ⭐ `44,618` | 🍴 `3,050` | **68.46** | 100% 오프라인에서 로컬 LLM을 클릭 한 번으로 실행하고 대화하는 미려한 오픈소스 데스크톱 클라이언트 | [GitHub](https://github.com/janhq/jan) |
+| **#28** | `▼1` | 🔥 Hot | **diffusers** | 북미 / 글로벌 | 디퓨전 파이프라인 & 생성 인프라 | ⭐ `34,588` | 🍴 `7,351` | **68.12** | Stable Diffusion, Flux, ControlNet 등 최신 확산 모델을 통일된 파이썬 API로 다루는 표준 라이브러리 | [GitHub](https://github.com/huggingface/diffusers) |
+| **#29** | `▼1` | 🔥 Hot | **CopilotKit** | 북미 / 글로벌 | 인앱 코파일럿 & UI 통합 | ⭐ `37,496` | 🍴 `4,653` | **68.08** | 기존 웹앱에 사이드바 코파일럿, 텍스트 인라인 편집, 프론트엔드 작업 제어 액션을 5분 만에 붙여주는 툴킷 | [GitHub](https://github.com/CopilotKit/CopilotKit) |
+| **#30** | `▼1` | 🔥 Hot | **dspy** | 북미 / 글로벌 | 프롬프트 최적화 & 컴파일러 | ⭐ `38,223` | 🍴 `3,350` | **67.87** | 휴리스틱 프롬프트 대신 알고리즘으로 모델 가중치와 프롬프트를 자동 컴파일/최적화하는 스탠퍼드 프레임워크 | [GitHub](https://github.com/stanfordnlp/dspy) |
+| **#31** | `▼1` | 🔥 Hot | **FastGPT** | 중국권 | 지식 베이스 & 사내 검색 | ⭐ `29,725` | 🍴 `7,322` | **67.46** | 데이터 전처리, 벡터 검색, 재순위화(Reranking)에 특화된 완성형 지식 베이스 질의응답 플랫폼 | [GitHub](https://github.com/labring/FastGPT) |
+| **#32** | `▼1` | 🔥 Hot | **qdrant** | 유럽권 | 고성능 벡터 데이터베이스 | ⭐ `34,760` | 🍴 `2,691` | **67.27** | Rust로 작성된 초고성능 벡터 검색 엔진. 풍부한 페이로드 필터링과 지연 없는 시맨틱 검색 지원 | [GitHub](https://github.com/qdrant/qdrant) |
+| **#33** | `▼1` | 🔥 Hot | **fish-speech** | 중국권 | 다국어 음성 엔진 | ⭐ `32,809` | 🍴 `2,831` | **67.06** | 영어, 중국어, 일본어, 한국어를 완벽 지원하는 고품질 제로샷 텍스트-음성 변환 오픈 엔진 | [GitHub](https://github.com/fishaudio/fish-speech) |
+| **#34** | `▼1` | 🔥 Hot | **ai-sdk** | 북미 / 글로벌 | 프론트엔드 & AI SDK | ⭐ `26,909` | 🍴 `5,175` | **66.73** | React, Next.js, Svelte, Vue에서 스트리밍 UI, 툴 호출, 구조화 생성을 구현하는 표준 프론트엔드 AI 툴킷 | [GitHub](https://github.com/vercel/ai) |
+| **#35** | `▼1` | 🔥 Hot | **Qwen-Code** | 중국권 | 에이전트 코딩 & 터미널 | ⭐ `28,076` | 🍴 `3,085` | **66.46** | 터미널에서 직접 실행되는 오픈소스 코딩 에이전트. Qwen-2.5-Coder의 최적화된 토크나이저와 도구 연동 | [GitHub](https://github.com/QwenLM/Qwen-Code) |
+| **#36** | `▼1` | 🔥 Hot | **haystack** | 유럽권 | 엔터프라이즈 LLM 오케스트레이션 | ⭐ `26,583` | 🍴 `3,165` | **66.25** | 독일 특유의 견고한 엔지니어링으로 모듈화된 엔터프라이즈 RAG 및 에이전트 파이프라인 프레임워크 | [GitHub](https://github.com/deepset-ai/haystack) |
+| **#37** | `▼1` | 🔥 Hot | **fastmcp** | 북미 / 글로벌 | 에이전트 프로토콜 & MCP | ⭐ `27,877` | 🍴 `2,392` | **66.21** | FastAPI 스타일의 데코레이터 문법으로 고성능 Model Context Protocol(MCP) 서버를 10줄 만에 빌드 | [GitHub](https://github.com/jlowin/fastmcp) |
+| **#38** | `▼1` | 🔥 Hot | **promptfoo** | 북미 / 글로벌 | 프롬프트 최적화 & 컴파일러 | ⭐ `25,392` | 🍴 `2,360` | **65.79** | 프롬프트 인젝션 방어, 탈옥(Jailbreak) 테스트 및 프롬프트 품질 회귀를 자동화하는 CI/CD 평가 도구 | [GitHub](https://github.com/promptfoo/promptfoo) |
+| **#39** | `▼1` | 🔥 Hot | **DB-GPT** | 중국권 | 데이터베이스 전용 에이전트 | ⭐ `20,036` | 🍴 `2,941` | **64.96** | 데이터와 메타데이터의 외부 유출 없이 로컬 DB에 직접 쿼리를 날리고 시각화하는 프라이빗 데이터 에이전트 | [GitHub](https://github.com/eosphoros-ai/DB-GPT) |
+| **#40** | `▼1` | 🔥 Hot | **pydantic-ai** | 북미 / 글로벌 | 에이전트 하네스 & 자율 실행 | ⭐ `20,129` | 🍴 `2,762` | **64.92** | Pydantic 팀이 직접 제작한 엄격한 타입 세이프(Type-safe) 에이전트 프레임워크. 구조화 출력 완벽 보장 | [GitHub](https://github.com/pydantic/pydantic-ai) |
+| **#41** | `▼1` | 🔥 Hot | **anthropic-computer-use** | 북미 / 글로벌 | 에이전트 도구 & 컴퓨터 사용 | ⭐ `17,722` | 🍴 `3,055` | **64.46** | 앤트로픽이 공개한 컴퓨터 조작(스크린샷 보기, 마우스 이동, 키보드 타이핑, bash 실행) 레퍼런스 하네스 | [GitHub](https://github.com/anthropics/anthropic-quickstarts) |
+| **#42** | `▼1` | 🔥 Hot | **ktransformers** | 중국권 | 로컬 인퍼런스 가속 | ⭐ `19,536` | 🍴 `1,576` | **64.3** | 일반 데스크톱 GPU(예: RTX 4090) 1장으로 DeepSeek 671B MoE 모델을 실행시키는 혁신적인 CPU-GPU 오프로딩 | [GitHub](https://github.com/kvcache-ai/ktransformers) |
+| **#43** | `▼1` | 🔥 Hot | **camel** | 북미 / 글로벌 | 에이전트 하네스 & 자율 실행 | ⭐ `17,759` | 🍴 `2,085` | **64.13** | 역할 기반 에이전트들이 자율적인 대화와 타협을 통해 과제를 해결하는 커뮤니케이션 중심 프레임워크 | [GitHub](https://github.com/camel-ai/camel) |
+| **#44** | `▼1` | 🔥 Hot | **weaviate** | 유럽권 | 오픈소스 벡터 검색 엔진 | ⭐ `16,839` | 🍴 `1,407` | **63.56** | 네덜란드 암스테르담에서 탄생한 클라우드 네이티브 벡터 데이터베이스. 멀티모달 검색 및 하이브리드 검색 특화 | [GitHub](https://github.com/weaviate/weaviate) |
+| **#45** | `▼1` | 🔥 Hot | **SubtitleEdit** | 유럽권 | 데스크톱 자막 제작 | ⭐ `14,300` | 🍴 `1,310` | **62.79** | 덴마크에서 개발되어 전 세계 영상 전문가들이 사용하는 오픈소스 자막 편집기. 로컬 AI 모델 내장으로 오프라인 전사 | [GitHub](https://github.com/SubtitleEdit/subtitleedit) |
+| **#46** | `▼1` | 🔥 Hot | **instructor** | 북미 / 글로벌 | 에이전트 하네스 & 자율 실행 | ⭐ `13,935` | 🍴 `1,259` | **62.64** | Pydantic 모델을 전달하면 LLM이 해당 스키마에 맞춰 정확한 JSON을 뱉도록 재시도 및 유효성 검증 자동화 | [GitHub](https://github.com/jxnl/instructor) |
+| **#47** | `▼1` | ⚡ Active | **marker** | 북미 / 글로벌 | 문서 변환 & 구조화 | ⭐ `39,911` | 🍴 `2,883` | **60.93** | 수식, 표, 다단 레이아웃을 KaTeX와 마크다운 표로 99% 정확도로 살려내는 딥러닝 문서 변환기 | [GitHub](https://github.com/VikParuchuri/marker) |
+| **#48** | `▼1` | 🔥 Hot | **SenseVoice** | 중국권 | 오픈소스 음성 인식 (STT) | ⭐ `9,353` | 🍴 `828` | **60.55** | Whisper 대비 5배 빠르고 감정, 음악, 웃음소리까지 감지하는 음성 인식 및 오디오 이해 모델 | [GitHub](https://github.com/FunAudioLLM/SenseVoice) |
+| **#49** | `▼1` | ⚡ Active | **smolagents** | 유럽권 | 코드 퍼스트 경량 에이전트 | ⭐ `29,457` | 🍴 `2,987` | **59.64** | 복잡한 프레임워크 대신 에이전트의 모든 판단과 도구 호출을 파이썬 코드로 표현하는 미니멀리즘 에이전트 (⭐1.4만) | [GitHub](https://github.com/huggingface/smolagents) |
+| **#50** | `▼1` | ✨ Fresh | **flowise** | 북미 / 글로벌 | 워크플로우 & 파이프라인 오케스트레이션 | ⭐ `55,476` | 🍴 `25,045` | **59.24** | LangChain 및 LlamaIndex 컴포넌트를 드래그 앤 드롭으로 연결하는 오픈소스 LLM 플로우 빌더 | [GitHub](https://github.com/FlowiseAI/Flowise) |
+| **#51** | `▼1` | ⚡ Active | **letta-memgpt** | 북미 / 글로벌 | 에이전트 메모리 & 상태 관리 | ⭐ `24,855` | 🍴 `2,626` | **58.79** | 운영체제의 가상 메모리 계층(Main Memory vs Disk)을 LLM 컨텍스트 윈도우에 적용해 무한 기억 에이전트 실현 | [GitHub](https://github.com/letta-ai/letta) |
+| **#52** | `▼1` | 💤 Stable | **DeepSeek-V3** | 중국권 | 최상위 추론 & 오픈 모델 | ⭐ `104,482` | 🍴 `16,733` | **58.64** | 671B 총 파라미터 중 37B만 활성화하는 초고효율 MoE 아키텍처. 상용 최상위 모델과 대등한 벤치마크 기록 | [GitHub](https://github.com/deepseek-ai/DeepSeek-V3) |
+| **#53** | `▼1` | 🔥 Hot | **maka** | 유럽권 | 감사 가능한 로컬 실행 엔진 | ⭐ `5,614` | 🍴 `519` | **57.92** | 에이전트가 내린 모든 툴 호출과 로컬 bash 명령어를 불변(Immutable) 원장에 기록해 법적 책임을 증명하는 엔진 | [GitHub](https://github.com/apache/maka) |
+| **#54** | `▼1` | 💤 Stable | **DeepSeek-R1** | 중국권 | 최상위 추론 & 오픈 모델 | ⭐ `91,976` | 🍴 `11,679` | **57.77** | 글로벌 AI 씬을 뒤흔든 오픈 가중치 최고봉 추론 모델. 강화학습을 통해 OpenAI o1 수준의 수학/코딩 추론 달성 | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1) |
+| **#55** | `▼1` | 🔥 Hot | **Infinity** | 중국권 | 로컬 벡터 데이터베이스 | ⭐ `4,717` | 🍴 `448` | **57.04** | 밀집 벡터(Dense), 희소 벡터(Sparse), 전문 검색(Full-text)을 단일 엔진에서 초고속 처리하는 차세대 검색 DB | [GitHub](https://github.com/infiniflow/infinity) |
+| **#56** | `▼1` | 💤 Stable | **MetaGPT** | 북미 / 글로벌 | 에이전트 하네스 & 자율 실행 | ⭐ `70,572` | 🍴 `8,962` | **56.39** | 제품 관리자, 아키텍트, 프로젝트 매니저, 엔지니어 역할을 부여해 소프트웨어 회사 전체 프로세스를 시뮬레이션 | [GitHub](https://github.com/geekan/MetaGPT) |
+| **#57** | `▼1` | 🔥 Hot | **voicevox** | 일본 및 아태지역 | 일본어 뉴럴 음성 합성 (TTS) | ⭐ `3,245` | 🍴 `374` | **55.26** | 일본 버추얼 유튜버 및 크리에이터 생태계의 절대적 1위 무료 음성 합성 소프트웨어 (즌다몬 등) | [GitHub](https://github.com/VOICEVOX/voicevox) |
+| **#58** | `▲38` | ⚡ Active | **seamless-m4t** | 일본 및 아태지역 | 다국어 음성 번역 하네스 | ⭐ `11,863` | 🍴 `1,179` | **54.88** | 아시아-태평양 수십 개 언어 간의 실시간 음성-음성, 음성-텍스트 다자간 통번역을 지원하는 유니버설 모델 | [GitHub](https://github.com/facebookresearch/seamless_communication) |
+| **#59** | `▼2` | ⚡ Active | **Moshi** | 유럽권 | 실시간 음성-음성 파운데이션 모델 | ⭐ `11,137` | 🍴 `1,034` | **54.5** | 파리 비영리 연구소 Kyutai가 공개한 오픈소스 음성 대화 AI. STT/TTS 없이 200ms 지연으로 사람과 실시간 수다 | [GitHub](https://github.com/kyutai-labs/moshi) |
+| **#60** | `▼2` | 💤 Stable | **aider** | 북미 / 글로벌 | 에이전트 코딩 & 터미널 페어프로그래밍 | ⭐ `49,128` | 🍴 `4,985` | **54.31** | 터미널에서 Git과 완벽 연동되어 자동 커밋 메시지, diff 패치, 파일 맵을 관리하는 1위 코딩 도구 (⭐3.2만) | [GitHub](https://github.com/Aider-AI/aider) |
+| **#61** | `▼2` | 🔥 Hot | **semiotic-global** | 북미 / 글로벌 | 시각화 & 데이터 분석 | ⭐ `2,706` | 🍴 `139` | **53.61** | 데이터 시각화에서 AI가 흔히 저지르는 축 왜곡과 범례 누락을 방지하는 엔터프라이즈 React 차트 프레임워크 | [GitHub](https://github.com/nteract/semiotic) |
+| **#62** | `▼2` | 💤 Stable | **bark** | 북미 / 글로벌 | 오픈소스 음성 합성 | ⭐ `39,270` | 🍴 `4,667` | **53.28** | 텍스트뿐 아니라 웃음소리, 한숨, 주저함([sigh], [laughs])까지 표현하는 감성 오디오 생성 오픈 모델 | [GitHub](https://github.com/suno-ai/bark) |
+| **#63** | `▼2` | 💤 Stable | **ChatTTS** | 중국권 | 자연스러운 음성 합성 | ⭐ `39,863` | 🍴 `4,260` | **53.26** | 인터랙티브 대화에 특화된 혁신적 음성 합성 모델. 말하는 도중 자연스러운 웃음, 호흡, 억양 표현 | [GitHub](https://github.com/2noise/ChatTTS) |
+| **#64** | `▼2` | 💤 Stable | **Open-Sora** | 북미 / 글로벌 | 오픈소스 비디오 생성 | ⭐ `29,825` | 🍴 `3,093` | **51.73** | 오픈AI Sora의 효율적인 오픈소스 재현 프로젝트. 텍스트 프롬프트로부터 고화질 비디오를 생성하는 분산 훈련/추론 | [GitHub](https://github.com/hpcaitech/Open-Sora) |
+| **#65** | `▼2` | 🔥 Hot | **tavily-python** | 북미 / 글로벌 | 웹 검색 & 정보 수집 | ⭐ `1,405` | 🍴 `188` | **51.03** | LLM 에이전트 리서치에 최적화된 검색 엔진. 잡다한 광고와 자바스크립트를 제거하고 클린 마크다운 텍스트 반환 | [GitHub](https://github.com/tavily-ai/tavily-python) |
+| **#66** | `▼2` | 💤 Stable | **CosyVoice** | 중국권 | 제로샷 음성 복제 | ⭐ `23,744` | 🍴 `2,701` | **50.62** | 3초 오디오만으로 화자의 음색, 감정, 어투를 그대로 복제하고 다국어로 교차 발화하는 음성 모델 | [GitHub](https://github.com/FunAudioLLM/CosyVoice) |
+| **#67** | `▼2` | 💤 Stable | **swarm** | 북미 / 글로벌 | 에이전트 하네스 & 자율 실행 | ⭐ `22,003` | 🍴 `2,335` | **50.16** | 에이전트 간 핸드오프(Handoff)와 루틴(Routine) 중심의 극도로 가볍고 직관적인 다중 에이전트 오케스트레이터 | [GitHub](https://github.com/openai/swarm) |
+| **#68** | `▼2` | 🔥 Hot | **voicevox_core** | 일본 및 아태지역 | 음성 합성 코어 엔진 | ⭐ `1,133` | 🍴 `160` | **49.95** | VOICEVOX의 고속 음성 합성 백엔드 C++ 코어. 파이썬과 러스트에서 경량 임베디드로 음성 출력 | [GitHub](https://github.com/VOICEVOX/voicevox_core) |
+| **#69** | `▼2` | 🔥 Hot | **Mistral-Large** | 유럽권 | 유럽 플래그십 파운데이션 모델 | ⭐ `946` | 🍴 `178` | **49.26** | 프랑스 AI 대표주자 Mistral의 플래그십. 다국어(불어, 독어, 스페인어, 영어)와 복잡한 추론에서 최고 수준 성능 | [GitHub](https://github.com/mistralai/mistral-common) |
+| **#70** | `▼2` | 💤 Stable | **Qwen-Agent** | 중국권 | 다국어 & 코딩 에이전트 | ⭐ `17,118` | 🍴 `1,731` | **48.81** | 8k부터 1M 컨텍스트까지 처리하는 알리바바 공식 에이전트. 펑션 콜링, 코드 인터프리터, 다중 툴 플래닝 | [GitHub](https://github.com/QwenLM/Qwen-Agent) |
+| **#71** | `▼2` | ✨ Fresh | **XAgent** | 중국권 | 복합 자율 에이전트 | ⭐ `8,549` | 🍴 `905` | **48.23** | 인간의 개입 없이 복잡한 목표를 하위 과제로 쪼개고 외부 도구를 탐색하며 실행하는 자율 문제 해결 시스템 | [GitHub](https://github.com/OpenBMB/XAgent) |
+| **#72** | `▼2` | ✨ Fresh | **GLM-4** | 중국권 | 엔터프라이즈 멀티모달 | ⭐ `7,072` | 🍴 `616` | **47.07** | 칭화대 계열 Zhipu AI의 플래그십. 1M 장문 처리, 복합 도구 호출, 고정밀 웹 브라우징 능력 제공 | [GitHub](https://github.com/THUDM/GLM-4) |
+| **#73** | `▼2` | 💤 Stable | **reader** | 북미 / 글로벌 | 웹 콘텐츠 클린 파싱 | ⭐ `12,036` | 🍴 `886` | **46.7** | 어떤 웹 URL이든 앞에 `r.jina.ai/`를 붙이면 LLM 친화적인 깨끗한 마크다운으로 파싱해주는 글로벌 리더 | [GitHub](https://github.com/jina-ai/reader) |
+| **#74** | `▼2` | 💤 Stable | **text-generation-inference** | 유럽권 | 고성능 프로덕션 인퍼런스 | ⭐ `10,885` | 🍴 `1,291` | **46.59** | Hugging Face의 엔터프라이즈급 LLM 서빙 엔진. 텐서 병렬화, 토큰 스트리밍, 플래시 어텐션 지원 | [GitHub](https://github.com/huggingface/text-generation-inference) |
+| **#75** | `▼2` | 💤 Stable | **InternVL** | 중국권 | 멀티모달 시각 언어 모델 | ⭐ `10,163` | 🍴 `789` | **45.86** | GPT-4V 수준의 시각 이해 벤치마크를 기록한 오픈소스 멀티모달. 고해상도 이미지 및 복합 도표 판독 특화 | [GitHub](https://github.com/OpenGVLab/InternVL) |
+| **#76** | `▼2` | 💤 Stable | **TripoSR** | 중국권 | 3D 객체 생성 | ⭐ `6,969` | 🍴 `903` | **44.34** | 단 한 장의 2D 이미지로부터 0.5초 만에 고품질 3D 메쉬 오브젝트를 생성하는 초고속 오픈소스 모델 | [GitHub](https://github.com/VAST-AI-Research/TripoSR) |
+| **#77** | `▼2` | 💤 Stable | **MindSearch** | 중국권 | 심층 웹 리서치 에이전트 | ⭐ `6,932` | 🍴 `692` | **44.09** | 인간 인지 과정을 모방해 다단계 병렬 검색과 지식 그래프를 구성하는 심층 연구 엔진 (Perplexity 대안) | [GitHub](https://github.com/InternLM/MindSearch) |
+| **#78** | `▼2` | ⚡ Active | **Hibiki** | 유럽권 | 실시간 다국어 음성 번역 | ⭐ `1,520` | 🍴 `119` | **43.97** | 말하는 도중 실시간으로 다른 언어로 음성을 바꿔서 뱉어내는 엔드투엔드 동시통역 음성 모델 | [GitHub](https://github.com/kyutai-labs/hibiki) |
+| **#79** | `▼2` | 💤 Stable | **AgentVerse** | 중국권 | 다중 에이전트 시뮬레이션 | ⭐ `5,139` | 🍴 `519` | **42.54** | 인공지능 에이전트들이 특정 규칙과 목표를 가진 가상 사회에서 상호작용하고 문제를 해결하는 플랫폼 | [GitHub](https://github.com/OpenBMB/AgentVerse) |
+| **#80** | `▼2` | 💤 Stable | **HunyuanDiT** | 중국권 | 텍스트-이미지 디퓨전 | ⭐ `4,292` | 🍴 `363` | **41.45** | 동양권 시각 문화와 이중 언어(영어/중국어) 텍스트를 정확하게 렌더링하는 텐센트의 멀티 해상도 DiT | [GitHub](https://github.com/Tencent/HunyuanDiT) |
+| **#81** | `▼2` | 💤 Stable | **rhasspy** | 유럽권 | 로컬 음성 보조 시스템 | ⭐ `2,746` | 🍴 `208` | **39.02** | 클라우드 전송 없는 완전 오프라인 프라이빗 음성 비서 툴킷. 홈 오토메이션(Home Assistant) 완벽 연동 | [GitHub](https://github.com/rhasspy/rhasspy) |
+| **#82** | `▼2` | 💤 Stable | **CodeGeeX4** | 중국권 | 코딩 어시스턴트 | ⭐ `2,596` | 🍴 `271` | **39.01** | 128K 컨텍스트를 지원하는 오픈소스 코딩 모델. 코드 완성, 인라인 설명, 리팩토링에서 높은 점수 | [GitHub](https://github.com/THUDM/CodeGeeX4) |
+| **#83** | `▼2` | 💤 Stable | **EasyAnimate** | 중국권 | 대규모 비디오 생성 | ⭐ `2,269` | 🍴 `186` | **38.1** | DiT 아키텍처 기반의 고해상도 장편 비디오 생성 파이프라인. ControlNet 연동으로 움직임 제어 가능 | [GitHub](https://github.com/aigc-apps/EasyAnimate) |
+| **#84** | `▼2` | 💤 Stable | **opencodeinterpreter** | 북미 / 글로벌 | 에이전트 코딩 & 터미널 | ⭐ `1,770` | 🍴 `221` | **37.17** | 코드 생성 후 로컬 샌드박스에서 즉시 실행하고 터미널 오류 출력을 읽어 자가 교정하는 오픈 인터프리터 | [GitHub](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) |
+| **#85** | `▼2` | 💤 Stable | **archify** | 북미 / 글로벌 | 아키텍처 분석 & 시각화 | ⭐ `0` | 🍴 `0` | **34.0** | 깃허브 레포지토리를 분석해 데이터 흐름, 컴포넌트 의존성 다이어그램을 코드로 자동 렌더링하는 스킬 | [GitHub](https://github.com/archify/archify) |
+| **#86** | `▼2` | 💤 Stable | **hydra-fusion** | 북미 / 글로벌 | 라우팅 & 모델 게이트웨이 | ⭐ `0` | 🍴 `0` | **34.0** | 단일 작업 내에서 탐색은 Flash/소형 모델, 심층 아키텍처는 Pro/Astra, 최종 감사는 Opus로 동적 자동 라우팅 | [GitHub](https://github.com/github/hydra-fusion) |
+| **#87** | `▼2` | 💤 Stable | **openrouter-runner** | 북미 / 글로벌 | 라우팅 & 모델 게이트웨이 | ⭐ `0` | 🍴 `0` | **34.0** | 단일 API 키와 표준 OpenAI 포맷으로 전 세계 100개 이상의 모델에 장애 시 자동 페일오버 라우팅 | [GitHub](https://github.com/openrouter-ai/openrouter-runner) |
+| **#88** | `▼1` | 💤 Stable | **DeepSeek-TUI** | 중국권 | 터미널 도구 & TUI | ⭐ `0` | 🍴 `0` | **34.0** | 2026년 깃허브에서 바이럴을 일으킨 도구. 터미널에서 스트리밍 CoT 추론 과정을 화려한 TUI로 실시간 관람 | [GitHub](https://github.com/deepseek-ai/deepseek-tui) |
+| **#89** | `▼1` | 💤 Stable | **tencentdb-agent-memory** | 중국권 | 에이전트 메모리 & 상태 거버넌스 | ⭐ `0` | 🍴 `0` | **34.0** | 장기 실행 에이전트의 상태를 감사(Audit) 가능한 형태로 데이터베이스에 영구 보존하고 롤백 지원 | [GitHub](https://github.com/Tencent/agent-memory) |
+| **#90** | `▼1` | 💤 Stable | **Codestral** | 유럽권 | 코드 특화 파운데이션 모델 | ⭐ `0` | 🍴 `0` | **34.0** | 80개 이상 프로그래밍 언어를 유창하게 구사하는 유럽 1위 오픈 코딩 모델. FIM(Fill-in-the-Middle) 완벽 지원 | [GitHub](https://github.com/mistralai/codestral-skills) |
+| **#91** | `▼1` | 💤 Stable | **luminous** | 유럽권 | 유럽 독자 파운데이션 모델 | ⭐ `0` | 🍴 `0` | **34.0** | 독일 하이델베르크의 Aleph Alpha가 개발한 설명 가능성(Explainability) 중심의 유럽형 파운데이션 모델 | [GitHub](https://github.com/Aleph-Alpha/luminous) |
+| **#92** | `▼1` | 💤 Stable | **ELYZA-tasks-100** | 일본 및 아태지역 | 일본어 LLM 평가 벤치마크 | ⭐ `0` | 🍴 `0` | **34.0** | 일본 도쿄대 스타트업 ELYZA가 구축한 일본어 지시 수행 및 복합 문맥 이해 사실상 표준 벤치마크 | [GitHub](https://github.com/elyza-inc/ELYZA-tasks-100) |
+| **#93** | `▼1` | 💤 Stable | **llm-jp** | 일본 및 아태지역 | 일본 학술 파운데이션 모델 | ⭐ `0` | 🍴 `0` | **34.0** | 일본 국립정보학연구소(NII) 주도의 산학연 합동 오픈소스 일본어 파운데이션 모델 프로젝트 | [GitHub](https://github.com/llm-jp/llm-jp) |
+| **#94** | `▼1` | 💤 Stable | **japanese-stable-diffusion** | 일본 및 아태지역 | 일본어 이미지 생성 디퓨전 | ⭐ `0` | 🍴 `0` | **34.0** | 일본어 텍스트 뉘앙스와 일본 서브컬처 스타일을 완벽하게 이해하도록 학습된 재팬 스테이블 디퓨전 | [GitHub](https://github.com/Stability-AI/japan-stable-diffusion) |
+| **#95** | `▼1` | 💤 Stable | **open-calm** | 일본 및 아태지역 | 일본 엔터프라이즈 언어 모델 | ⭐ `0` | 🍴 `0` | **34.0** | 일본 대형 IT 기업 사이버에이전트가 자체 데이터로 사전학습해 공개한 오픈소스 일본어 모델 시리즈 | [GitHub](https://github.com/cyberagent/open-calm) |
+| **#96** | `▼1` | 💤 Stable | **japanese-gpt-neox** | 일본 및 아태지역 | 대화형 감성 대화 모델 | ⭐ `0` | 🍴 `0` | **34.0** | 과거 MS 일본 법인에서 분사한 rinna의 고품질 대화형 일본어 모델. 친근한 대화체 구사 | [GitHub](https://github.com/rinnakk/japanese-gpt-neox) |
+| **#97** | `−` | 💤 Stable | **dify-japan-recipes** | 일본 및 아태지역 | AI 코딩 & 프롬프트 커뮤니티 | ⭐ `0` | 🍴 `0` | **34.0** | 일본 현지 비즈니스(공문서, 비즈니스 메일 경어체 변환 등)에 맞춘 Dify 에이전트 실무 워크플로우 모음 | [GitHub](https://github.com/dify-japan/recipes) |
+| **#98** | `−` | 💤 Stable | **sakura-cloud-ai** | 일본 및 아태지역 | 소버린 AI 인프라 스택 | ⭐ `0` | 🍴 `0` | **34.0** | 일본 정부가 인증한 소버린 클라우드 AI 인프라. 데이터 역외 유출 방지 및 안전한 LLM 파인튜닝 스택 | [GitHub](https://github.com/sakura-internet/cloud-ai-stack) |
+| **#99** | `−` | ✨ Fresh | **MinerU-Popo** | 중국권 | 문서 변환 & 구조화 | ⭐ `338` | 🍴 `25` | **31.09** | 문서 추출 후 청킹 및 계층 구조를 재정렬하여 RAG 검색의 맥락 단절을 방지하는 후처리 도구 | [GitHub](https://github.com/opendatalab/MinerU-Popo) |
+| **#100** | `−` | 💤 Stable | **mistral-eval** | 유럽권 | 유럽 환경 적응형 프롬프트 | ⭐ `92` | 🍴 `15` | **21.99** | 유럽 각국 언어(프랑스어, 독일어, 이탈리아어 등)에서의 논리적 일관성과 규제 준수성을 측정하는 벤치마크 | [GitHub](https://github.com/mistralai/mistral-evals) |
 
 ---
 

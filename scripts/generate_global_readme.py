@@ -40,7 +40,7 @@ def main():
 
     # Global items sorted by rank
     items_by_global_rank = sorted(items, key=lambda x: x.get("rank_global", 999))
-    top_20 = items_by_global_rank[:20]
+    top_100 = items_by_global_rank[:100]
 
     # Partition by region
     region_map = {
@@ -77,14 +77,14 @@ def main():
     md.append("")
     md.append("---")
     md.append("")
-    md.append("## 🏆 1. Global AI Weekly Top 20 Leaderboard (실시간 글로벌 랭킹)")
+    md.append("## 🏆 1. Global AI Weekly Top 100 Leaderboard (실시간 글로벌 100선 종합 랭킹)")
     md.append("")
-    md.append("GitHub 실시간 메트릭(Stars, Forks)과 최근 커밋 활동성(Recency Bonus)을 종합 반영한 글로벌 주간 랭킹입니다.")
+    md.append("GitHub 실시간 메트릭(Stars, Forks)과 최근 커밋 활동성(Recency Bonus)을 종합 반영한 전 세계 100선 실시간 통합 랭킹입니다.")
     md.append("")
     md.append("| 순위 | 변동 | 상태 | 프로젝트명 | 권역 | 카테고리 | Stars | Forks | 활동 점수 | 핵심 특징 및 활용처 | 링크 |")
     md.append("|:---:|:---:|:---:|---|---|---|:---:|:---:|:---:|---|:---:|")
 
-    for it in top_20:
+    for it in top_100:
         rank = it.get("rank_global", "-")
         delta = it.get("rank_delta", "-")
         status = it.get("status", "⚡ Active")

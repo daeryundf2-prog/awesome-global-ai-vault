@@ -25,7 +25,7 @@ def format_number(val):
 
 def main():
     parser = argparse.ArgumentParser(description="Awesome Global AI Vault & Leaderboard Search")
-    parser.add_argument("--top", type=int, default=None, help="Display Top N global projects by ranking (e.g. --top 10)")
+    parser.add_argument("--top", type=int, nargs="?", const=100, default=None, help="Display Top N global projects by ranking (e.g. --top or --top 20, default: 100)")
     parser.add_argument("--region", "-r", type=str, default=None, help="Filter by region (us, cn, eu, jp, 북미, 중국, 유럽, 일본)")
     parser.add_argument("--model", "-m", type=str, default=None, help="Filter by compatible model keyword")
     parser.add_argument("--category", "-c", type=str, default=None, help="Filter by category")
