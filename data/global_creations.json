@@ -12,13 +12,13 @@
     "use_case": "복잡한 웹 탐색, 코드 수정, 파일 시스템 조작을 단일 목표 지시로 자율 완결할 때",
     "stars": 390314,
     "forks": 82103,
-    "open_issues": 8338,
-    "pushed_at": "2026-09-23T10:31:56Z",
+    "open_issues": 8339,
+    "pushed_at": "2026-09-23T10:35:23Z",
     "archived": false,
     "score": 80.74,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
     "rank_global": 1,
     "rank_delta": "−",
     "rank_regional": 1
@@ -34,15 +34,15 @@
     "execution_type": "Adaptive Agent",
     "summary": "자율적인 스킬 학습 및 영구 누적을 특징으로 하는 적응형 에이전트 하네스",
     "use_case": "세션을 거듭할수록 팀의 특정 도메인 워크플로우에 맞춰 스스로 스킬을 학습하게 할 때",
-    "stars": 248238,
+    "stars": 248239,
     "forks": 52421,
-    "open_issues": 44083,
+    "open_issues": 44084,
     "pushed_at": "2026-09-23T10:26:30Z",
     "archived": false,
     "score": 78.39,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
     "rank_global": 2,
     "rank_delta": "−",
     "rank_regional": 2
@@ -58,18 +58,42 @@
     "execution_type": "Workflow Automation (⭐5만)",
     "summary": "수백 개의 SaaS와 데이터베이스를 AI 에이전트 노드로 연결하는 오픈소스 비주얼 워크플로우 플랫폼",
     "use_case": "슬랙, 노션, 세일즈포스, 이메일 간 복잡한 비즈니스 로직에 AI 판단 노드를 얹어 자동화할 때",
-    "stars": 205750,
+    "stars": 205751,
     "forks": 60857,
     "open_issues": 1146,
-    "pushed_at": "2026-09-23T10:30:40Z",
+    "pushed_at": "2026-09-23T10:35:26Z",
     "archived": false,
     "score": 77.7,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
     "rank_global": 3,
     "rank_delta": "−",
     "rank_regional": 3
+  },
+  {
+    "id": 43,
+    "region": "중국권 (China & Greater Asia)",
+    "category": "에이전트 하네스 & 자율 실행",
+    "name": "deepseek-harness",
+    "author": "deepseek-ai",
+    "github": "https://github.com/deepseek-ai/deepseek-harness",
+    "model_affinity": "Cordis Architecture / DeepSeek",
+    "execution_type": "Modular Harness",
+    "summary": "Cordis 설계를 도입하여 모델, 툴, 세션, 루프 전부를 플러그인으로 갈아끼우는 프레임워크 독립형 하네스",
+    "use_case": "DeepSeek 기반의 경량·모듈형 자율 코딩 에이전트 환경 구축",
+    "score": 77.59,
+    "days_since_push": 0,
+    "status": "🔥 Hot",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 4,
+    "rank_delta": "▲82",
+    "rank_regional": 1,
+    "stars": 233975,
+    "forks": 28111,
+    "open_issues": 0,
+    "pushed_at": "2026-09-22T15:50:34Z",
+    "archived": false
   },
   {
     "id": 20,
@@ -90,9 +114,9 @@
     "score": 77.06,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 4,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 5,
+    "rank_delta": "▼1",
     "rank_regional": 4
   },
   {
@@ -114,9 +138,9 @@
     "score": 76.3,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 5,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 6,
+    "rank_delta": "▼1",
     "rank_regional": 1
   },
   {
@@ -138,9 +162,9 @@
     "score": 76.1,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 6,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 7,
+    "rank_delta": "▼1",
     "rank_regional": 5
   },
   {
@@ -154,18 +178,18 @@
     "execution_type": "Agentic Platform (⭐6.5만)",
     "summary": "비주얼 오케스트레이션, RAG 파이프라인, 에이전트 워크플로우를 완성형 웹 앱으로 즉시 배포하는 글로벌 리딩 플랫폼",
     "use_case": "개발팀과 비개발팀이 협업하여 실서비스용 엔터프라이즈 AI 앱을 노코드로 운영할 때",
-    "stars": 156946,
-    "forks": 24743,
+    "stars": 156948,
+    "forks": 24742,
     "open_issues": 1081,
-    "pushed_at": "2026-09-23T10:32:12Z",
+    "pushed_at": "2026-09-23T10:33:46Z",
     "archived": false,
     "score": 75.74,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 7,
-    "rank_delta": "−",
-    "rank_regional": 1
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 8,
+    "rank_delta": "▼1",
+    "rank_regional": 2
   },
   {
     "id": 25,
@@ -180,15 +204,15 @@
     "use_case": "Ollama, Jan, LM Studio 등 전 세계 모든 로컬 AI 앱의 핵심 구동 엔진",
     "stars": 129285,
     "forks": 23623,
-    "open_issues": 2525,
-    "pushed_at": "2026-09-23T10:25:26Z",
+    "open_issues": 2524,
+    "pushed_at": "2026-09-23T10:34:10Z",
     "archived": false,
     "score": 74.86,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 8,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 9,
+    "rank_delta": "▼1",
     "rank_regional": 6
   },
   {
@@ -210,9 +234,9 @@
     "score": 74.7,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 9,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 10,
+    "rank_delta": "▼1",
     "rank_regional": 7
   },
   {
@@ -226,7 +250,7 @@
     "execution_type": "Browser Agent (⭐3.5만)",
     "summary": "AI가 사람처럼 브라우저를 띄워 클릭, 스크롤, 양식 제출, 로그인, 데이터 수집을 완결하는 웹 에이전트",
     "use_case": "API가 없는 웹사이트 예약, 티켓팅, 경쟁사 가격 모니터링, 웹 기반 SaaS 자동 조작",
-    "stars": 116025,
+    "stars": 116027,
     "forks": 12773,
     "open_issues": 486,
     "pushed_at": "2026-09-18T22:34:42Z",
@@ -234,9 +258,9 @@
     "score": 73.86,
     "days_since_push": 4,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 10,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 11,
+    "rank_delta": "▼1",
     "rank_regional": 8
   },
   {
@@ -251,16 +275,16 @@
     "summary": "PagedAttention 기반으로 메모리 낭비를 없애고 처리량을 최대 24배 끌어올린 오픈소스 프로덕션 서빙 엔진",
     "use_case": "대규모 사내 서빙 클러스터에서 수백 명의 동시 에이전트 요청을 고속 처리할 때",
     "stars": 92500,
-    "forks": 22565,
-    "open_issues": 8349,
+    "forks": 22564,
+    "open_issues": 8350,
     "pushed_at": "2026-09-23T10:00:52Z",
     "archived": false,
     "score": 73.37,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 11,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 12,
+    "rank_delta": "▼1",
     "rank_regional": 9
   },
   {
@@ -276,16 +300,16 @@
     "use_case": "복잡한 서식의 매뉴얼과 정관에서 단 하나의 오류도 없이 정확한 조항을 검색할 때",
     "stars": 91209,
     "forks": 10812,
-    "open_issues": 1493,
+    "open_issues": 1494,
     "pushed_at": "2026-09-23T10:17:36Z",
     "archived": false,
     "score": 72.67,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 12,
-    "rank_delta": "−",
-    "rank_regional": 2
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 13,
+    "rank_delta": "▼1",
+    "rank_regional": 3
   },
   {
     "id": 61,
@@ -306,10 +330,10 @@
     "score": 72.66,
     "days_since_push": 7,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 13,
-    "rank_delta": "−",
-    "rank_regional": 3
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 14,
+    "rank_delta": "▼1",
+    "rank_regional": 4
   },
   {
     "id": 47,
@@ -330,10 +354,10 @@
     "score": 71.71,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 14,
-    "rank_delta": "−",
-    "rank_regional": 4
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 15,
+    "rank_delta": "▼1",
+    "rank_regional": 5
   },
   {
     "id": 76,
@@ -346,7 +370,7 @@
     "execution_type": "Fine-Tuning Engine (⭐2.4만)",
     "summary": "파이토치 연산을 수작업으로 최적화하여 LLM 파인튜닝 속도를 5배 빠르게, VRAM 사용량을 80% 줄인 영국 명품 툴",
     "use_case": "일반 단일 GPU에서 70B 모델을 수 시간 만에 LoRA 파인튜닝할 때",
-    "stars": 76612,
+    "stars": 76613,
     "forks": 7012,
     "open_issues": 1238,
     "pushed_at": "2026-09-23T10:29:11Z",
@@ -354,9 +378,9 @@
     "score": 71.53,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 15,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 16,
+    "rank_delta": "▼1",
     "rank_regional": 2
   },
   {
@@ -370,17 +394,17 @@
     "execution_type": "Memory Layer (⭐2.5만)",
     "summary": "사용자의 과거 대화, 선호도, 사실 관계를 지속적으로 갱신하고 인덱싱하는 개인화 메모리 레이어",
     "use_case": "모든 에이전트 애플리케이션에 '사용자를 기억하는 영구 기억 장치'를 1줄 코드로 추가할 때",
-    "stars": 65876,
+    "stars": 65877,
     "forks": 7741,
-    "open_issues": 752,
-    "pushed_at": "2026-09-23T10:15:42Z",
+    "open_issues": 754,
+    "pushed_at": "2026-09-23T10:34:54Z",
     "archived": false,
     "score": 70.96,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 16,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 17,
+    "rank_delta": "▼1",
     "rank_regional": 10
   },
   {
@@ -402,9 +426,9 @@
     "score": 70.96,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 17,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 18,
+    "rank_delta": "▼1",
     "rank_regional": 3
   },
   {
@@ -420,15 +444,15 @@
     "use_case": "시장 조사 보고서 작성, 뉴스레터 발행 파이프라인을 3~4명의 전문 가상 직원 팀으로 실행",
     "stars": 58935,
     "forks": 8553,
-    "open_issues": 458,
+    "open_issues": 459,
     "pushed_at": "2026-09-23T03:23:28Z",
     "archived": false,
     "score": 70.57,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 18,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 19,
+    "rank_delta": "▼1",
     "rank_regional": 11
   },
   {
@@ -450,9 +474,9 @@
     "score": 70.01,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 19,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 20,
+    "rank_delta": "▼1",
     "rank_regional": 12
   },
   {
@@ -474,9 +498,9 @@
     "score": 69.9,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 20,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 21,
+    "rank_delta": "▼1",
     "rank_regional": 13
   },
   {
@@ -491,16 +515,16 @@
     "summary": "덴마크 지구물리학자가 해고 후 제작한 오픈소스. 채용공고 스크랩부터 이력서 맞춤 작성, 모의면접까지 자율 완결",
     "use_case": "구직자가 수십 개 타깃 기업에 맞춘 고품질 영문 커버레터와 CV를 자동 생성할 때",
     "stars": 43707,
-    "forks": 15033,
+    "forks": 15034,
     "open_issues": 3,
     "pushed_at": "2026-09-21T06:41:22Z",
     "archived": false,
     "score": 69.76,
     "days_since_push": 2,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 21,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 22,
+    "rank_delta": "▼1",
     "rank_regional": 4
   },
   {
@@ -516,15 +540,15 @@
     "use_case": "기존 상용 OpenAI API 코드를 단 한 줄도 수정하지 않고 사내 로컬 환경으로 교체할 때",
     "stars": 49234,
     "forks": 4464,
-    "open_issues": 167,
-    "pushed_at": "2026-09-23T10:32:59Z",
+    "open_issues": 168,
+    "pushed_at": "2026-09-23T10:33:29Z",
     "archived": false,
     "score": 69.22,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 22,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 23,
+    "rank_delta": "▼1",
     "rank_regional": 5
   },
   {
@@ -546,9 +570,9 @@
     "score": 68.96,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 23,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 24,
+    "rank_delta": "▼1",
     "rank_regional": 14
   },
   {
@@ -570,9 +594,9 @@
     "score": 68.59,
     "days_since_push": 6,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 24,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 25,
+    "rank_delta": "▼1",
     "rank_regional": 6
   },
   {
@@ -587,16 +611,16 @@
     "summary": "복잡한 에이전트 툴 호출과 다단계 추론에서 반복되는 KV 캐시를 Radix 트리로 공유해 레이턴시를 5배 단축",
     "use_case": "다단계 검색 및 CoT 추론을 반복하는 복잡한 에이전트의 응답 지연 극소화",
     "stars": 36361,
-    "forks": 9091,
-    "open_issues": 5342,
+    "forks": 9092,
+    "open_issues": 5343,
     "pushed_at": "2026-09-23T10:21:02Z",
     "archived": false,
     "score": 68.52,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 25,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 26,
+    "rank_delta": "▼1",
     "rank_regional": 15
   },
   {
@@ -618,10 +642,10 @@
     "score": 68.46,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 26,
-    "rank_delta": "−",
-    "rank_regional": 5
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 27,
+    "rank_delta": "▼1",
+    "rank_regional": 6
   },
   {
     "id": 36,
@@ -642,9 +666,9 @@
     "score": 68.12,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 27,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 28,
+    "rank_delta": "▼1",
     "rank_regional": 16
   },
   {
@@ -666,9 +690,9 @@
     "score": 68.08,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 28,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 29,
+    "rank_delta": "▼1",
     "rank_regional": 17
   },
   {
@@ -690,9 +714,9 @@
     "score": 67.87,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 29,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 30,
+    "rank_delta": "▼1",
     "rank_regional": 18
   },
   {
@@ -714,10 +738,10 @@
     "score": 67.46,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 30,
-    "rank_delta": "−",
-    "rank_regional": 6
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 31,
+    "rank_delta": "▼1",
+    "rank_regional": 7
   },
   {
     "id": 77,
@@ -738,9 +762,9 @@
     "score": 67.27,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 31,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 32,
+    "rank_delta": "▼1",
     "rank_regional": 7
   },
   {
@@ -762,10 +786,10 @@
     "score": 67.06,
     "days_since_push": 6,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 32,
-    "rank_delta": "−",
-    "rank_regional": 7
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 33,
+    "rank_delta": "▼1",
+    "rank_regional": 8
   },
   {
     "id": 16,
@@ -786,9 +810,9 @@
     "score": 66.73,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 33,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 34,
+    "rank_delta": "▼1",
     "rank_regional": 19
   },
   {
@@ -805,15 +829,15 @@
     "stars": 28076,
     "forks": 3085,
     "open_issues": 1507,
-    "pushed_at": "2026-09-23T10:10:23Z",
+    "pushed_at": "2026-09-23T10:35:36Z",
     "archived": false,
     "score": 66.46,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 34,
-    "rank_delta": "−",
-    "rank_regional": 8
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 35,
+    "rank_delta": "▼1",
+    "rank_regional": 9
   },
   {
     "id": 78,
@@ -827,16 +851,16 @@
     "summary": "독일 특유의 견고한 엔지니어링으로 모듈화된 엔터프라이즈 RAG 및 에이전트 파이프라인 프레임워크",
     "use_case": "기업 보안과 유지보수성이 핵심인 엔터프라이즈 시맨틱 검색 및 문서 질의응답 시스템 구축",
     "stars": 26583,
-    "forks": 3164,
+    "forks": 3165,
     "open_issues": 153,
     "pushed_at": "2026-09-23T10:20:47Z",
     "archived": false,
     "score": 66.25,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 35,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 36,
+    "rank_delta": "▼1",
     "rank_regional": 8
   },
   {
@@ -858,9 +882,9 @@
     "score": 66.21,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 36,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 37,
+    "rank_delta": "▼1",
     "rank_regional": 20
   },
   {
@@ -882,9 +906,9 @@
     "score": 65.79,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 37,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 38,
+    "rank_delta": "▼1",
     "rank_regional": 21
   },
   {
@@ -906,10 +930,10 @@
     "score": 64.96,
     "days_since_push": 7,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 38,
-    "rank_delta": "−",
-    "rank_regional": 9
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 39,
+    "rank_delta": "▼1",
+    "rank_regional": 10
   },
   {
     "id": 9,
@@ -924,15 +948,15 @@
     "use_case": "백엔드 API나 금융/결제 시스템에 직결되는 LLM 출력값의 스키마 에러를 제로화할 때",
     "stars": 20129,
     "forks": 2762,
-    "open_issues": 970,
+    "open_issues": 972,
     "pushed_at": "2026-09-23T10:04:42Z",
     "archived": false,
     "score": 64.92,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 39,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 40,
+    "rank_delta": "▼1",
     "rank_regional": 22
   },
   {
@@ -954,9 +978,9 @@
     "score": 64.46,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 40,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 41,
+    "rank_delta": "▼1",
     "rank_regional": 23
   },
   {
@@ -978,10 +1002,10 @@
     "score": 64.3,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 41,
-    "rank_delta": "−",
-    "rank_regional": 10
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 42,
+    "rank_delta": "▼1",
+    "rank_regional": 11
   },
   {
     "id": 21,
@@ -1002,9 +1026,9 @@
     "score": 64.13,
     "days_since_push": 3,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 42,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 43,
+    "rank_delta": "▼1",
     "rank_regional": 24
   },
   {
@@ -1021,14 +1045,14 @@
     "stars": 16839,
     "forks": 1407,
     "open_issues": 745,
-    "pushed_at": "2026-09-23T10:23:08Z",
+    "pushed_at": "2026-09-23T10:33:18Z",
     "archived": false,
     "score": 63.56,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 43,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 44,
+    "rank_delta": "▼1",
     "rank_regional": 9
   },
   {
@@ -1050,9 +1074,9 @@
     "score": 62.79,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 44,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 45,
+    "rank_delta": "▼1",
     "rank_regional": 10
   },
   {
@@ -1074,9 +1098,9 @@
     "score": 62.64,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 45,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 46,
+    "rank_delta": "▼1",
     "rank_regional": 25
   },
   {
@@ -1098,9 +1122,9 @@
     "score": 60.93,
     "days_since_push": 10,
     "status": "⚡ Active",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 46,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 47,
+    "rank_delta": "▼1",
     "rank_regional": 26
   },
   {
@@ -1122,10 +1146,10 @@
     "score": 60.55,
     "days_since_push": 1,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 47,
-    "rank_delta": "−",
-    "rank_regional": 11
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 48,
+    "rank_delta": "▼1",
+    "rank_regional": 12
   },
   {
     "id": 75,
@@ -1146,9 +1170,9 @@
     "score": 59.64,
     "days_since_push": 28,
     "status": "⚡ Active",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 48,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 49,
+    "rank_delta": "▼1",
     "rank_regional": 11
   },
   {
@@ -1170,9 +1194,9 @@
     "score": 59.24,
     "days_since_push": 40,
     "status": "✨ Fresh",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 49,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 50,
+    "rank_delta": "▼1",
     "rank_regional": 27
   },
   {
@@ -1194,9 +1218,9 @@
     "score": 58.79,
     "days_since_push": 12,
     "status": "⚡ Active",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 50,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 51,
+    "rank_delta": "▼1",
     "rank_regional": 28
   },
   {
@@ -1218,10 +1242,10 @@
     "score": 58.64,
     "days_since_push": 391,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 51,
-    "rank_delta": "−",
-    "rank_regional": 12
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 52,
+    "rank_delta": "▼1",
+    "rank_regional": 13
   },
   {
     "id": 82,
@@ -1242,9 +1266,9 @@
     "score": 57.92,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 52,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 53,
+    "rank_delta": "▼1",
     "rank_regional": 12
   },
   {
@@ -1266,10 +1290,10 @@
     "score": 57.77,
     "days_since_push": 453,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 53,
-    "rank_delta": "−",
-    "rank_regional": 13
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 54,
+    "rank_delta": "▼1",
+    "rank_regional": 14
   },
   {
     "id": 68,
@@ -1290,10 +1314,10 @@
     "score": 57.04,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 54,
-    "rank_delta": "−",
-    "rank_regional": 14
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 55,
+    "rank_delta": "▼1",
+    "rank_regional": 15
   },
   {
     "id": 22,
@@ -1314,9 +1338,9 @@
     "score": 56.39,
     "days_since_push": 245,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 55,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 56,
+    "rank_delta": "▼1",
     "rank_regional": 29
   },
   {
@@ -1338,10 +1362,34 @@
     "score": 55.26,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 56,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 57,
+    "rank_delta": "▼1",
     "rank_regional": 1
+  },
+  {
+    "id": 98,
+    "region": "일본 및 아태지역 (Japan & APAC)",
+    "category": "다국어 음성 번역 하네스",
+    "name": "seamless-m4t",
+    "author": "Meta APAC Research",
+    "github": "https://github.com/facebookresearch/seamless_communication",
+    "model_affinity": "SeamlessM4T v2",
+    "execution_type": "Universal Translator",
+    "summary": "아시아-태평양 수십 개 언어 간의 실시간 음성-음성, 음성-텍스트 다자간 통번역을 지원하는 유니버설 모델",
+    "use_case": "한-중-일-동남아 크로스보더 비즈니스 미팅 실시간 통역",
+    "score": 54.88,
+    "days_since_push": 14,
+    "status": "⚡ Active",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 58,
+    "rank_delta": "▲38",
+    "rank_regional": 2,
+    "stars": 11863,
+    "forks": 1179,
+    "open_issues": 253,
+    "pushed_at": "2026-09-08T12:22:24Z",
+    "archived": false
   },
   {
     "id": 73,
@@ -1362,9 +1410,9 @@
     "score": 54.5,
     "days_since_push": 13,
     "status": "⚡ Active",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 57,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 59,
+    "rank_delta": "▼2",
     "rank_regional": 13
   },
   {
@@ -1386,9 +1434,9 @@
     "score": 54.31,
     "days_since_push": 123,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 58,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 60,
+    "rank_delta": "▼2",
     "rank_regional": 30
   },
   {
@@ -1410,9 +1458,9 @@
     "score": 53.61,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 59,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 61,
+    "rank_delta": "▼2",
     "rank_regional": 31
   },
   {
@@ -1434,9 +1482,9 @@
     "score": 53.28,
     "days_since_push": 765,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 60,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 62,
+    "rank_delta": "▼2",
     "rank_regional": 32
   },
   {
@@ -1458,10 +1506,10 @@
     "score": 53.26,
     "days_since_push": 165,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 61,
-    "rank_delta": "−",
-    "rank_regional": 15
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 63,
+    "rank_delta": "▼2",
+    "rank_regional": 16
   },
   {
     "id": 26,
@@ -1482,9 +1530,9 @@
     "score": 51.73,
     "days_since_push": 167,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 62,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 64,
+    "rank_delta": "▼2",
     "rank_regional": 33
   },
   {
@@ -1506,9 +1554,9 @@
     "score": 51.03,
     "days_since_push": 4,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 63,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 65,
+    "rank_delta": "▼2",
     "rank_regional": 34
   },
   {
@@ -1530,10 +1578,10 @@
     "score": 50.62,
     "days_since_push": 120,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 64,
-    "rank_delta": "−",
-    "rank_regional": 16
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 66,
+    "rank_delta": "▼2",
+    "rank_regional": 17
   },
   {
     "id": 5,
@@ -1554,9 +1602,9 @@
     "score": 50.16,
     "days_since_push": 160,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 65,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 67,
+    "rank_delta": "▼2",
     "rank_regional": 35
   },
   {
@@ -1578,10 +1626,10 @@
     "score": 49.95,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 66,
-    "rank_delta": "−",
-    "rank_regional": 2
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 68,
+    "rank_delta": "▼2",
+    "rank_regional": 3
   },
   {
     "id": 71,
@@ -1602,9 +1650,9 @@
     "score": 49.26,
     "days_since_push": 0,
     "status": "🔥 Hot",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 67,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 69,
+    "rank_delta": "▼2",
     "rank_regional": 14
   },
   {
@@ -1626,10 +1674,10 @@
     "score": 48.81,
     "days_since_push": 203,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 68,
-    "rank_delta": "−",
-    "rank_regional": 17
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 70,
+    "rank_delta": "▼2",
+    "rank_regional": 18
   },
   {
     "id": 64,
@@ -1650,10 +1698,10 @@
     "score": 48.23,
     "days_since_push": 54,
     "status": "✨ Fresh",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 69,
-    "rank_delta": "−",
-    "rank_regional": 18
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 71,
+    "rank_delta": "▼2",
+    "rank_regional": 19
   },
   {
     "id": 54,
@@ -1674,10 +1722,10 @@
     "score": 47.07,
     "days_since_push": 49,
     "status": "✨ Fresh",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 70,
-    "rank_delta": "−",
-    "rank_regional": 19
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 72,
+    "rank_delta": "▼2",
+    "rank_regional": 20
   },
   {
     "id": 31,
@@ -1698,9 +1746,9 @@
     "score": 46.7,
     "days_since_push": 124,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 71,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 73,
+    "rank_delta": "▼2",
     "rank_regional": 36
   },
   {
@@ -1722,9 +1770,9 @@
     "score": 46.59,
     "days_since_push": 185,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 72,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 74,
+    "rank_delta": "▼2",
     "rank_regional": 15
   },
   {
@@ -1746,10 +1794,10 @@
     "score": 45.86,
     "days_since_push": 366,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 73,
-    "rank_delta": "−",
-    "rank_regional": 20
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 75,
+    "rank_delta": "▼2",
+    "rank_regional": 21
   },
   {
     "id": 70,
@@ -1770,10 +1818,10 @@
     "score": 44.34,
     "days_since_push": 111,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 74,
-    "rank_delta": "−",
-    "rank_regional": 21
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 76,
+    "rank_delta": "▼2",
+    "rank_regional": 22
   },
   {
     "id": 56,
@@ -1794,10 +1842,10 @@
     "score": 44.09,
     "days_since_push": 446,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 75,
-    "rank_delta": "−",
-    "rank_regional": 22
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 77,
+    "rank_delta": "▼2",
+    "rank_regional": 23
   },
   {
     "id": 74,
@@ -1818,9 +1866,9 @@
     "score": 43.97,
     "days_since_push": 13,
     "status": "⚡ Active",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 76,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 78,
+    "rank_delta": "▼2",
     "rank_regional": 16
   },
   {
@@ -1842,10 +1890,10 @@
     "score": 42.54,
     "days_since_push": 744,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 77,
-    "rank_delta": "−",
-    "rank_regional": 23
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 79,
+    "rank_delta": "▼2",
+    "rank_regional": 24
   },
   {
     "id": 57,
@@ -1866,10 +1914,10 @@
     "score": 41.45,
     "days_since_push": 300,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 78,
-    "rank_delta": "−",
-    "rank_regional": 24
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 80,
+    "rank_delta": "▼2",
+    "rank_regional": 25
   },
   {
     "id": 88,
@@ -1890,9 +1938,9 @@
     "score": 39.02,
     "days_since_push": 518,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 79,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 81,
+    "rank_delta": "▼2",
     "rank_regional": 17
   },
   {
@@ -1914,10 +1962,10 @@
     "score": 39.01,
     "days_since_push": 758,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 80,
-    "rank_delta": "−",
-    "rank_regional": 25
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 82,
+    "rank_delta": "▼2",
+    "rank_regional": 26
   },
   {
     "id": 65,
@@ -1938,10 +1986,10 @@
     "score": 38.1,
     "days_since_push": 565,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 81,
-    "rank_delta": "−",
-    "rank_regional": 26
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 83,
+    "rank_delta": "▼2",
+    "rank_regional": 27
   },
   {
     "id": 28,
@@ -1962,9 +2010,9 @@
     "score": 37.17,
     "days_since_push": 868,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 82,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 84,
+    "rank_delta": "▼2",
     "rank_regional": 37
   },
   {
@@ -1981,9 +2029,9 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 83,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 85,
+    "rank_delta": "▼2",
     "rank_regional": 38
   },
   {
@@ -2000,9 +2048,9 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 84,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 86,
+    "rank_delta": "▼2",
     "rank_regional": 39
   },
   {
@@ -2019,29 +2067,10 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 85,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 87,
+    "rank_delta": "▼2",
     "rank_regional": 40
-  },
-  {
-    "id": 43,
-    "region": "중국권 (China & Greater Asia)",
-    "category": "에이전트 하네스 & 자율 실행",
-    "name": "deepseek-harness",
-    "author": "deepseek-ai",
-    "github": "https://github.com/deepseek-ai/deepseek-harness",
-    "model_affinity": "Cordis Architecture / DeepSeek",
-    "execution_type": "Modular Harness",
-    "summary": "Cordis 설계를 도입하여 모델, 툴, 세션, 루프 전부를 플러그인으로 갈아끼우는 프레임워크 독립형 하네스",
-    "use_case": "DeepSeek 기반의 경량·모듈형 자율 코딩 에이전트 환경 구축",
-    "score": 34.0,
-    "days_since_push": 999,
-    "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 86,
-    "rank_delta": "−",
-    "rank_regional": 27
   },
   {
     "id": 44,
@@ -2057,9 +2086,9 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 87,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 88,
+    "rank_delta": "▼1",
     "rank_regional": 28
   },
   {
@@ -2076,9 +2105,9 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 88,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 89,
+    "rank_delta": "▼1",
     "rank_regional": 29
   },
   {
@@ -2095,9 +2124,9 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 89,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 90,
+    "rank_delta": "▼1",
     "rank_regional": 18
   },
   {
@@ -2114,9 +2143,9 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 90,
-    "rank_delta": "−",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 91,
+    "rank_delta": "▼1",
     "rank_regional": 19
   },
   {
@@ -2133,10 +2162,10 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 91,
-    "rank_delta": "−",
-    "rank_regional": 3
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 92,
+    "rank_delta": "▼1",
+    "rank_regional": 4
   },
   {
     "id": 94,
@@ -2152,10 +2181,10 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 92,
-    "rank_delta": "−",
-    "rank_regional": 4
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 93,
+    "rank_delta": "▼1",
+    "rank_regional": 5
   },
   {
     "id": 95,
@@ -2171,10 +2200,10 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 93,
-    "rank_delta": "−",
-    "rank_regional": 5
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 94,
+    "rank_delta": "▼1",
+    "rank_regional": 6
   },
   {
     "id": 96,
@@ -2190,10 +2219,10 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 94,
-    "rank_delta": "−",
-    "rank_regional": 6
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
+    "rank_global": 95,
+    "rank_delta": "▼1",
+    "rank_regional": 7
   },
   {
     "id": 97,
@@ -2209,28 +2238,9 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
-    "rank_global": 95,
-    "rank_delta": "−",
-    "rank_regional": 7
-  },
-  {
-    "id": 98,
-    "region": "일본 및 아태지역 (Japan & APAC)",
-    "category": "다국어 음성 번역 하네스",
-    "name": "seamless-m4t",
-    "author": "Meta APAC Research",
-    "github": "https://github.com/facebookresearch/seamless_communication",
-    "model_affinity": "SeamlessM4T v2",
-    "execution_type": "Universal Translator",
-    "summary": "아시아-태평양 수십 개 언어 간의 실시간 음성-음성, 음성-텍스트 다자간 통번역을 지원하는 유니버설 모델",
-    "use_case": "한-중-일-동남아 크로스보더 비즈니스 미팅 실시간 통역",
-    "score": 34.0,
-    "days_since_push": 999,
-    "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
     "rank_global": 96,
-    "rank_delta": "−",
+    "rank_delta": "▼1",
     "rank_regional": 8
   },
   {
@@ -2247,7 +2257,7 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
     "rank_global": 97,
     "rank_delta": "−",
     "rank_regional": 9
@@ -2266,7 +2276,7 @@
     "score": 34.0,
     "days_since_push": 999,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
     "rank_global": 98,
     "rank_delta": "−",
     "rank_regional": 10
@@ -2290,7 +2300,7 @@
     "score": 31.09,
     "days_since_push": 54,
     "status": "✨ Fresh",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
     "rank_global": 99,
     "rank_delta": "−",
     "rank_regional": 30
@@ -2314,7 +2324,7 @@
     "score": 21.99,
     "days_since_push": 306,
     "status": "💤 Stable",
-    "last_synced_at": "2026-09-23 10:32:24 UTC",
+    "last_synced_at": "2026-09-23 10:35:25 UTC",
     "rank_global": 100,
     "rank_delta": "−",
     "rank_regional": 20
