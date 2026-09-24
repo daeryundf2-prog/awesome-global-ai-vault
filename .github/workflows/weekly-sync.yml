@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: weekly-lazyradar-sync
@@ -47,6 +48,23 @@ jobs:
       - name: Validate data schema before committing
         run: |
           python scripts/validate_data.py
+
+      - name: Build unavailable-repo cleanup report
+        run: |
+          python scripts/report_unavailable.py --json-out removal_candidates.json --md-out removal_issue.md
+
+      - name: File cleanup issue for persistent 404 repos
+        if: hashFiles('removal_candidates.json') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create radar-cleanup --description "Automated lazyradar cleanup tracking" --color E99695 --force || true
+          open_count=$(gh issue list --label radar-cleanup --state open --json number --jq 'length')
+          if [ "$open_count" -eq 0 ]; then
+            gh issue create --title "lazyradar cleanup: unavailable repositories" --label radar-cleanup --body-file removal_issue.md
+          else
+            echo "An open radar-cleanup issue already exists — skipping to avoid duplicates."
+          fi
 
       - name: Commit and Push Changes
         run: |
