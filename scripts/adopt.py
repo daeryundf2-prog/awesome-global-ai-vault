@@ -230,4 +230,6 @@ def main():
     print()
 
 if __name__ == "__main__":
+    if sys.stdout:
+        sys.stdout.reconfigure(encoding="utf-8")
     main()

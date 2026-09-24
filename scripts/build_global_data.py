@@ -1,5 +1,9 @@
 import json
+import sys
 import os
+
+if sys.stdout:
+    sys.stdout.reconfigure(encoding="utf-8")
 
 items = [
     # =========================================================================

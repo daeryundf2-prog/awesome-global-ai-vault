@@ -11,6 +11,7 @@ Exclusively tracks real, widely starred, community-used open-source AI projects 
 """
 
 import os
+import sys
 import json
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "global_creations.json")
@@ -1069,4 +1070,6 @@ def main():
     print(f"📁 Saved to {DATA_PATH}")
 
 if __name__ == "__main__":
+    if sys.stdout:
+        sys.stdout.reconfigure(encoding="utf-8")
     main()

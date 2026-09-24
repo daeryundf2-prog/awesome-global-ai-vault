@@ -1,0 +1,3 @@
+# lazyradar 스크립트는 Python 표준 라이브러리만 사용한다 (urllib, json, argparse).
+# 이 파일은 의존성이 없음을 명시하기 위한 자리 표시다.
+# 테스트 실행에는 pytest가 필요하다: pip install pytest
