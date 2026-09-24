@@ -11,7 +11,7 @@ import json
 import urllib.request
 import urllib.parse
 import urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "global_creations.json")
 CANDIDATES_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "emerging_candidates.json")
@@ -61,11 +61,16 @@ def main():
                     existing_repos.add(parts)
 
     token = get_github_token()
+    # "급부상" 근거: 최근 생성(14일) 또는 최근 푸시(7일) 필터를 쿼리에 포함한다.
+    today = datetime.now(timezone.utc).date()
+    created_after = (today - timedelta(days=14)).isoformat()
+    pushed_after = (today - timedelta(days=7)).isoformat()
     queries = [
-        "topic:mcp stars:>500",
-        "topic:agent stars:>2000",
-        "deepseek stars:>1000",
-        "speech-to-speech stars:>500"
+        f"(topic:llm OR topic:ai-agent) created:>{created_after} stars:>50",
+        f"topic:mcp pushed:>{pushed_after} stars:>500",
+        f"topic:llm pushed:>{pushed_after} stars:>200",
+        f"deepseek pushed:>{pushed_after} stars:>1000",
+        f"speech-to-speech created:>{created_after} stars:>50",
     ]
 
     discovered = {}
@@ -105,4 +110,6 @@ def main():
     print(f"✅ Discovered {len(candidates_list)} emerging AI projects. Saved to {CANDIDATES_PATH}")
 
 if __name__ == "__main__":
+    if sys.stdout:
+        sys.stdout.reconfigure(encoding="utf-8")
     main()
