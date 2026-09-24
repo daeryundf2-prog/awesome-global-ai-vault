@@ -1,8 +1,8 @@
-# 🛰️ lazyradar: Autonomous Global AI Tech Radar & 5-Nation Top 20
+# 🛰️ lazyradar: Global AI Tech Radar & 5-Nation Top 20
 
 > **레이지 시리즈 공식 글로벌 AI 기술 레이더 (Lazy Series Official Tech Radar)**
-> 미국·중국·대한민국·유럽·일본 5대 주요국 Top 20 랭킹 분과 및 전 세계 100선 실시간 자동 랭킹 시스템
-> 매주 월요일 09:00 KST, GitHub Actions가 100개 레포지토리의 실시간 Stars/Forks/최근 커밋일을 수집하여 동적 순위와 신규 급부상 프로젝트를 자동으로 최신화합니다.
+> 미국·중국·대한민국·유럽·일본 5대 주요국 Top 20 랭킹 분과 및 전 세계 100선 큐레이션 랭킹
+> 매주 월요일 09:00 KST, GitHub Actions가 큐레이션된 100개 레포지토리의 Stars/Forks/최근 커밋 지표를 갱신해 순위를 다시 계산하고, Search API로 신규 후보를 제안합니다.
 
 [![Weekly lazyradar Sync & Leaderboard](https://github.com/daeryundf2-prog/lazyradar/actions/workflows/weekly-sync.yml/badge.svg)](https://github.com/daeryundf2-prog/lazyradar/actions/workflows/weekly-sync.yml) 
 ![Last Synced](https://img.shields.io/badge/Last%20Synced-2026-09-23%2015:18%20UTC-blue) 
@@ -20,7 +20,7 @@
 3. [🇰🇷 대한민국 (South Korea) Top 20](#cntry-kr)
 4. [🇪🇺 유럽 (Europe) Top 20](#cntry-eu)
 5. [🇯🇵 일본 (Japan) Top 20](#cntry-jp)
-6. [🏆 전 세계 100선 실시간 통합 랭킹 (Global Top 100)](#global-top-100)
+6. [🏆 전 세계 100선 통합 랭킹 (Global Top 100)](#global-top-100)
 
 ---
 
@@ -159,9 +159,9 @@
 ---
 
 <a id="global-top-100"></a>
-## 🏆 2. Global AI Weekly Top 100 Leaderboard (실시간 글로벌 100선 종합 랭킹)
+## 🏆 2. Global AI Weekly Top 100 Leaderboard (글로벌 100선 종합 랭킹)
 
-GitHub 실시간 메트릭(Stars, Forks)과 최근 커밋 활동성(Recency Bonus)을 종합 반영한 전 세계 100선 실시간 통합 랭킹입니다.
+GitHub 주간 갱신 메트릭(Stars, Forks)과 최근 커밋 활동성(Recency Bonus)을 종합 반영한 전 세계 100선 통합 랭킹입니다.
 
 | 순위 | 변동 | 상태 | 프로젝트명 | 국가 | 카테고리 | Stars | Forks | 활동 점수 | 핵심 특징 및 활용처 | 링크 |
 |:---:|:---:|:---:|---|---|---|:---:|:---:|:---:|---|:---:|
@@ -270,7 +270,7 @@ GitHub 실시간 메트릭(Stars, Forks)과 최근 커밋 활동성(Recency Bonu
 
 ## 🛰️ 3. Weekly Radar Emerging Candidates (새롭게 포착된 유망 신규 AI)
 
-GitHub Search API를 통해 최근 1~2주간 스타 급증세가 포착된 미등록 신규 AI 오픈소스 프로젝트입니다:
+GitHub Search API 고정 토픽 쿼리로 포착된, 아직 추적 목록에 없는 AI 오픈소스 후보입니다:
 
 | 프로젝트명 | 언어 | Stars | Forks | 소개 | 저장소 링크 |
 |---|:---:|:---:|:---:|---|:---:|
@@ -319,10 +319,10 @@ python scripts/search.py --list-categories
 ```mermaid
 flowchart LR
     A[GitHub Actions Cron<br>매주 월요일 09:00 KST] --> B[scripts/update_metrics.py]
-    B -->|GitHub REST API| C[(5개국 100개 레포 실시간<br>Stars / Forks / Commits)]
+    B -->|GitHub REST API| C[(100개 레포 주간<br>Stars / Forks / Commits)]
     C --> D[국가별 Top 20 &<br>글로벌 Top 100 랭킹 산정]
     A --> E[scripts/discover_trending.py]
-    E -->|GitHub Search API| F[(신규 급부상 AI 레포 발굴)]
+    E -->|GitHub Search API| F[(신규 후보 레포 탐색)]
     D --> G[scripts/generate_global_readme.py]
     F --> G
     G --> H[README.md & Data 최신화]
@@ -335,6 +335,10 @@ flowchart LR
   - 30일 이내 커밋: 가산점 +8 (⚡ Active)
   - 90일 이내 커밋: 가산점 +3 (✨ Fresh)
   - 90일 초과: 가산점 0 (💤 Stable)
+
+- **방법론**:
+  - **목록 선정 기준**: 추적 대상 100개는 관리자가 수동 선정한 큐레이션 목록입니다. 국가 분류는 조직/저자의 공개 정보에 따릅니다. 신규 항목은 자동으로 목록에 합류하지 않고 Emerging 후보에만 표시됩니다.
+  - **Emerging 후보의 한계**: `discover_trending.py`는 고정 토픽 쿼리(`topic:mcp`, `topic:agent`, `deepseek`, `speech-to-speech`)의 누적 스타 상위 결과를 가져옵니다. 생성일/푸시일 필터와 주간 스타 증가분 지표가 없으므로 '급부상'이 아니라 '미등록 고스타 레포'로 해석해야 합니다.
 
 ---
 
