@@ -6,6 +6,7 @@ Emerging Radar Candidates, and Automated Weekly Pipeline Badges.
 """
 
 import os
+import sys
 import json
 from datetime import datetime, timezone
 
@@ -38,8 +39,9 @@ def main():
 
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    # Global items sorted by rank
-    items_by_global_rank = sorted(items, key=lambda x: x.get("rank_global", 999))
+    # Global items sorted by rank — 404(unavailable)·archived는 랭킹에서 제외
+    rankable = [it for it in items if it.get("status") != "unavailable" and not it.get("archived")]
+    items_by_global_rank = sorted(rankable, key=lambda x: x.get("rank_global") or 9999)
     top_100 = items_by_global_rank[:100]
 
     # Partition by 5 prominent countries/blocs
@@ -52,6 +54,8 @@ def main():
     }
 
     for it in items:
+        if it.get("status") == "unavailable":
+            continue  # 사라진 레포는 표에 싣지 않는다
         code = it.get("country_code", "")
         cname = it.get("country", it.get("region", ""))
         if code in country_groups:
@@ -110,9 +114,14 @@ def main():
         md.append("|:---:|:---:|:---:|---|---|---|:---:|:---:|:---:|---|:---:|")
 
         for it in group["items"]:
-            c_rank = it.get("rank_country", "-")
-            g_rank = it.get("rank_global", "-")
+            c_rank = it.get("rank_country")
+            g_rank = it.get("rank_global")
             status = it.get("status", "⚡ Active")
+            if it.get("archived"):
+                status = "📦 Archived"
+                c_rank = g_rank = None  # 순위 제외 — 데이터에 잔류 순위가 있어도 표시하지 않는다
+            elif it.get("stale"):
+                status = "⚠️ 갱신실패"
             name = it.get("name", "")
             author = it.get("author", "")
             model = it.get("model_affinity", "")
@@ -123,8 +132,10 @@ def main():
             use_case = it.get("use_case", "")
             gh = it.get("github", "#")
 
+            c_rank_s = f"**#{c_rank:02d}**" if isinstance(c_rank, int) else "**-**"
+            g_rank_s = f"`#{g_rank:02d}`" if isinstance(g_rank, int) else "`-`"
             desc = f"**{summary}**<br>👉 *{use_case}*"
-            md.append(f"| **#{c_rank:02d}** | `#{g_rank:02d}` | {status} | **{name}** | {author} | `{model}` | ⭐ `{stars}` | 🍴 `{forks}` | **{score}** | {desc} | [GitHub]({gh}) |")
+            md.append(f"| {c_rank_s} | {g_rank_s} | {status} | **{name}** | {author} | `{model}` | ⭐ `{stars}` | 🍴 `{forks}` | **{score}** | {desc} | [GitHub]({gh}) |")
 
         md.append("")
 
@@ -139,9 +150,13 @@ def main():
     md.append("|:---:|:---:|:---:|---|---|---|:---:|:---:|:---:|---|:---:|")
 
     for it in top_100:
-        rank = it.get("rank_global", "-")
+        rank = it.get("rank_global") or "-"
         delta = it.get("rank_delta", "-")
         status = it.get("status", "⚡ Active")
+        if it.get("archived"):
+            status = "📦 Archived"
+        elif it.get("stale"):
+            status = "⚠️ 갱신실패"
         name = it.get("name", "")
         cntry = it.get("country", it.get("region", "")).split("(")[0].strip()
         cat = it.get("category", "")
@@ -244,4 +259,6 @@ flowchart LR
     print(f"SUCCESS: Generated country-by-country dynamic README.md at {README_PATH}")
 
 if __name__ == "__main__":
+    if sys.stdout:
+        sys.stdout.reconfigure(encoding="utf-8")
     main()
